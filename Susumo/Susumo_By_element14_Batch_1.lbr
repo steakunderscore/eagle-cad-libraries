@@ -1,0 +1,5099 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>Developed by element14 :&lt;br&gt;
+element14 CAD Library consolidation.ulp
+at 27/03/2012 12:03:03</description>
+<packages>
+<package name="RESC2013X65N">
+<smd name="1" x="-0.9398" y="0" dx="1.016" dy="1.397" layer="1"/>
+<smd name="2" x="0.9398" y="0" dx="1.016" dy="1.397" layer="1"/>
+<wire x1="-0.1016" y1="-0.7112" x2="0.1016" y2="-0.7112" width="0.1524" layer="21"/>
+<wire x1="0.1016" y1="0.7112" x2="-0.1016" y2="0.7112" width="0.1524" layer="21"/>
+<wire x1="-0.4318" y1="-0.7112" x2="-0.4318" y2="0.7112" width="0" layer="51"/>
+<wire x1="-0.4318" y1="0.7112" x2="-1.0668" y2="0.7112" width="0" layer="51"/>
+<wire x1="-1.0668" y1="-0.7112" x2="-0.4318" y2="-0.7112" width="0" layer="51"/>
+<wire x1="0.4318" y1="0.7112" x2="0.4318" y2="-0.7112" width="0" layer="51"/>
+<wire x1="0.4318" y1="-0.7112" x2="1.0668" y2="-0.7112" width="0" layer="51"/>
+<wire x1="1.0668" y1="0.7112" x2="0.4318" y2="0.7112" width="0" layer="51"/>
+<wire x1="-0.4318" y1="-0.7112" x2="0.4318" y2="-0.7112" width="0" layer="51"/>
+<wire x1="1.0668" y1="-0.7112" x2="1.0668" y2="0.7112" width="0" layer="51"/>
+<wire x1="0.4318" y1="0.7112" x2="-0.4318" y2="0.7112" width="0" layer="51"/>
+<wire x1="-1.0668" y1="0.7112" x2="-1.0668" y2="-0.7112" width="0" layer="51"/>
+<text x="-3.4544" y="1.27" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-3.175" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="RESC1005X40N">
+<smd name="1" x="-0.5842" y="0" dx="0.6604" dy="0.6096" layer="1"/>
+<smd name="2" x="0.5842" y="0" dx="0.6604" dy="0.6096" layer="1"/>
+<wire x1="-0.254" y1="-0.3048" x2="-0.254" y2="0.3048" width="0" layer="51"/>
+<wire x1="-0.254" y1="0.3048" x2="-0.5588" y2="0.3048" width="0" layer="51"/>
+<wire x1="-0.5588" y1="-0.3048" x2="-0.254" y2="-0.3048" width="0" layer="51"/>
+<wire x1="0.254" y1="0.3048" x2="0.254" y2="-0.3048" width="0" layer="51"/>
+<wire x1="0.254" y1="-0.3048" x2="0.5588" y2="-0.3048" width="0" layer="51"/>
+<wire x1="0.5588" y1="0.3048" x2="0.254" y2="0.3048" width="0" layer="51"/>
+<wire x1="-0.254" y1="-0.3048" x2="0.254" y2="-0.3048" width="0" layer="51"/>
+<wire x1="0.5588" y1="-0.3048" x2="0.5588" y2="0.3048" width="0" layer="51"/>
+<wire x1="0.254" y1="0.3048" x2="-0.254" y2="0.3048" width="0" layer="51"/>
+<wire x1="-0.5588" y1="0.3048" x2="-0.5588" y2="-0.3048" width="0" layer="51"/>
+<text x="-3.4544" y="1.27" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-3.175" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="RESC1608X60N">
+<smd name="1" x="-0.8382" y="0" dx="0.762" dy="0.9398" layer="1"/>
+<smd name="2" x="0.8382" y="0" dx="0.762" dy="0.9398" layer="1"/>
+<wire x1="-0.127" y1="-0.4826" x2="0.127" y2="-0.4826" width="0.1524" layer="21"/>
+<wire x1="0.127" y1="0.4826" x2="-0.127" y2="0.4826" width="0.1524" layer="21"/>
+<wire x1="-0.4572" y1="-0.4826" x2="-0.4572" y2="0.4826" width="0" layer="51"/>
+<wire x1="-0.4572" y1="0.4826" x2="-0.8382" y2="0.4826" width="0" layer="51"/>
+<wire x1="-0.8382" y1="-0.4826" x2="-0.4572" y2="-0.4826" width="0" layer="51"/>
+<wire x1="0.4572" y1="0.4826" x2="0.4572" y2="-0.4826" width="0" layer="51"/>
+<wire x1="0.4572" y1="-0.4826" x2="0.8382" y2="-0.4826" width="0" layer="51"/>
+<wire x1="0.8382" y1="0.4826" x2="0.4572" y2="0.4826" width="0" layer="51"/>
+<wire x1="-0.4572" y1="-0.4826" x2="0.4572" y2="-0.4826" width="0" layer="51"/>
+<wire x1="0.8382" y1="-0.4826" x2="0.8382" y2="0.4826" width="0" layer="51"/>
+<wire x1="0.4572" y1="0.4826" x2="-0.4572" y2="0.4826" width="0" layer="51"/>
+<wire x1="-0.8382" y1="0.4826" x2="-0.8382" y2="-0.4826" width="0" layer="51"/>
+<text x="-3.4544" y="1.27" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-3.175" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="RESH">
+<pin name="R2" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="R1" x="12.7" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="3.175" y1="1.27" x2="4.445" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="4.445" y1="-1.27" x2="5.715" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="5.715" y1="1.27" x2="6.985" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="-1.27" x2="8.255" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="1.27" x2="9.525" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.175" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="9.525" y1="-1.27" x2="10.16" y2="0" width="0.2032" layer="94"/>
+<text x="-3.1242" y="-8.7376" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="0.9906" y="2.7686" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="RESV">
+<pin name="1" x="0" y="12.7" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="3.175" width="0.2032" layer="94"/>
+<wire x1="-1.27" y1="3.175" x2="1.27" y2="4.445" width="0.2032" layer="94"/>
+<wire x1="1.27" y1="4.445" x2="-1.27" y2="5.715" width="0.2032" layer="94"/>
+<wire x1="-1.27" y1="5.715" x2="1.27" y2="6.985" width="0.2032" layer="94"/>
+<wire x1="-1.27" y1="8.255" x2="1.27" y2="9.525" width="0.2032" layer="94"/>
+<wire x1="1.27" y1="9.525" x2="0" y2="10.16" width="0.2032" layer="94"/>
+<wire x1="1.27" y1="6.985" x2="-1.27" y2="8.255" width="0.2032" layer="94"/>
+<text x="1.905" y="7.2136" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="1.905" y="0.1524" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RL1220S-100-F" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RL1220S-100-F" constant="no"/>
+<attribute name="OC_FARNELL" value="9376640" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1642" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 1%" constant="no"/>
+<attribute name="VALUE" value="10 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.25 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RL1220S-1R0-F" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RL1220S-1R0-F" constant="no"/>
+<attribute name="OC_FARNELL" value="1612056" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1640" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 1%" constant="no"/>
+<attribute name="VALUE" value="1 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="1/4W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RL1220S-4R7-F" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RL1220S-4R7-F" constant="no"/>
+<attribute name="OC_FARNELL" value="9376666" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1644" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 1%" constant="no"/>
+<attribute name="VALUE" value="4.7 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.25 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RL1220S-R10-F" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RL1220S-R10-F" constant="no"/>
+<attribute name="OC_FARNELL" value="9376291" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1608" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 1%" constant="no"/>
+<attribute name="VALUE" value="0.1 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.25 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RL1220S-R10-G" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RL1220S-R10-G" constant="no"/>
+<attribute name="OC_FARNELL" value="9376313" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1610" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 2%" constant="no"/>
+<attribute name="VALUE" value="0.1 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.25 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RL1220S-R15-F" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RL1220S-R15-F" constant="no"/>
+<attribute name="OC_FARNELL" value="9376852" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1662" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 1%" constant="no"/>
+<attribute name="VALUE" value="0.15 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.25 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RL1220S-R18-F" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RL1220S-R18-F" constant="no"/>
+<attribute name="OC_FARNELL" value="9376356" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1614" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 1%" constant="no"/>
+<attribute name="VALUE" value="0.18 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.25 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RL1220S-R20-F" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RL1220S-R20-F" constant="no"/>
+<attribute name="OC_FARNELL" value="1653327" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1616" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 1%" constant="no"/>
+<attribute name="VALUE" value="0.2 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="1/4W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RL1220S-R22-F" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RL1220S-R22-F" constant="no"/>
+<attribute name="OC_FARNELL" value="9376399" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1618" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 1%" constant="no"/>
+<attribute name="VALUE" value="0.22 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.25 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RL1220S-R24-F" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RL1220S-R24-F" constant="no"/>
+<attribute name="OC_FARNELL" value="9376410" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1620" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 1%" constant="no"/>
+<attribute name="VALUE" value="0.24 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.25 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RL1220S-R30-G" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RL1220S-R30-G" constant="no"/>
+<attribute name="OC_FARNELL" value="9376453" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1624" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 2%" constant="no"/>
+<attribute name="VALUE" value="0.3 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.25 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RL1220S-R33-F" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RL1220S-R33-F" constant="no"/>
+<attribute name="OC_FARNELL" value="1612055" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1626" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 1%" constant="no"/>
+<attribute name="VALUE" value="0.33 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="1/4W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RL1220S-R39-F" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RL1220S-R39-F" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1630" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 1%" constant="no"/>
+<attribute name="VALUE" value="0.39 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.25 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RL1220S-R47-F" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RL1220S-R47-F" constant="no"/>
+<attribute name="OC_FARNELL" value="9376542" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1632" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 1%" constant="no"/>
+<attribute name="VALUE" value="0.47 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.25 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RL1220S-R50-F" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RL1220S-R50-F" constant="no"/>
+<attribute name="OC_FARNELL" value="1653328" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1634" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 1%" constant="no"/>
+<attribute name="VALUE" value="0.50 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="1/4W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RL1220S-R68-F" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RL1220S-R68-F" constant="no"/>
+<attribute name="OC_FARNELL" value="9376585" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1636" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 1%" constant="no"/>
+<attribute name="VALUE" value="0.68 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.25 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RL1220S-R91-F" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RL1220S-R91-F" constant="no"/>
+<attribute name="OC_FARNELL" value="9376607" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1638" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 1%" constant="no"/>
+<attribute name="VALUE" value="0.91 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.25 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RL1220T-R022-G" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RL1220T-R022-G" constant="no"/>
+<attribute name="OC_FARNELL" value="9376682" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1646" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 2%" constant="no"/>
+<attribute name="VALUE" value="0.022 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.25 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RL1220T-R025-J" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RL1220T-R025-J" constant="no"/>
+<attribute name="OC_FARNELL" value="9376704" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1648" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 5%" constant="no"/>
+<attribute name="VALUE" value="0.025 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.25 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RL1220T-R033-G" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RL1220T-R033-G" constant="no"/>
+<attribute name="OC_FARNELL" value="9376739" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1650" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 2%" constant="no"/>
+<attribute name="VALUE" value="0.033 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.25 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RL1220T-R047-G" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RL1220T-R047-G" constant="no"/>
+<attribute name="OC_FARNELL" value="9376755" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1652" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 2%" constant="no"/>
+<attribute name="VALUE" value="0.047 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.25 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RL1220T-R050-G" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RL1220T-R050-G" constant="no"/>
+<attribute name="OC_FARNELL" value="9376771" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1654" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 2%" constant="no"/>
+<attribute name="VALUE" value="0.05 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.25 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RL1220T-R068-G" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RL1220T-R068-G" constant="no"/>
+<attribute name="OC_FARNELL" value="9376810" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1658" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 2%" constant="no"/>
+<attribute name="VALUE" value="0.068 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.25 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0510P-101-D" prefix="R">
+<description>RESISTOR, 0402</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1005X40N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0510P-101-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9363297" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0308" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="±0.5%" constant="no"/>
+<attribute name="VALUE" value="100 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0510P-102-D" prefix="R">
+<description>RESISTOR, 0402</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1005X40N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0510P-102-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9363319" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0310" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="±0.5%" constant="no"/>
+<attribute name="VALUE" value="1 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0510P-103-D" prefix="R">
+<description>RESISTOR, 0402</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1005X40N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0510P-103-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9363335" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0312" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="±0.5%" constant="no"/>
+<attribute name="VALUE" value="10 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0510P-104-D" prefix="R">
+<description>RESISTOR, 0402</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1005X40N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0510P-104-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9363351" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0314" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="±0.5%" constant="no"/>
+<attribute name="VALUE" value="100 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0510P-152-D" prefix="R">
+<description>RESISTOR, 0402</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1005X40N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0510P-152-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9363475" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0326" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="±0.5%" constant="no"/>
+<attribute name="VALUE" value="1.5 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0510P-153-D" prefix="R">
+<description>RESISTOR, 0402</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1005X40N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0510P-153-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9363491" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0328" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="±0.5%" constant="no"/>
+<attribute name="VALUE" value="15 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0510P-201-D" prefix="R">
+<description>RESISTOR, 0402</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1005X40N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0510P-201-D" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0336" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="±0.5%" constant="no"/>
+<attribute name="VALUE" value="200 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0510P-203-D" prefix="R">
+<description>RESISTOR, 0402</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1005X40N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0510P-203-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9363599" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0338" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="±0.5%" constant="no"/>
+<attribute name="VALUE" value="20 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0510P-302-D" prefix="R">
+<description>RESISTOR, 0402</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1005X40N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0510P-302-D" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0344" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="±0.5%" constant="no"/>
+<attribute name="VALUE" value="3 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0510P-303-D" prefix="R">
+<description>RESISTOR, 0402</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1005X40N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0510P-303-D" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0346" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="±0.5%" constant="no"/>
+<attribute name="VALUE" value="30 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0510P-331-D" prefix="R">
+<description>RESISTOR, 0402</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1005X40N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0510P-331-D" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0348" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="±0.5%" constant="no"/>
+<attribute name="VALUE" value="330 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0510P-333-D" prefix="R">
+<description>RESISTOR, 0402</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1005X40N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0510P-333-D" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0350" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="±0.5%" constant="no"/>
+<attribute name="VALUE" value="33 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0510P-472-D" prefix="R">
+<description>RESISTOR, 0402</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1005X40N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0510P-472-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9363866" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0364" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="±0.5%" constant="no"/>
+<attribute name="VALUE" value="4.7 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0510P-473-D" prefix="R">
+<description>RESISTOR, 0402</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1005X40N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0510P-473-D" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0366" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="±0.5%" constant="no"/>
+<attribute name="VALUE" value="47 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0510R-100-D" prefix="R">
+<description>RESISTOR, 0402</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1005X40N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0510R-100-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9364080" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0386" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="±0.5%" constant="no"/>
+<attribute name="VALUE" value="10 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0510R-330-D" prefix="R">
+<description>RESISTOR, 0402</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1005X40N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0510R-330-D" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0397" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="±0.5%" constant="no"/>
+<attribute name="VALUE" value="33 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0510R-49R9-D" prefix="R">
+<description>RESISTOR, 0402</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1005X40N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0510R-49R9-D" constant="no"/>
+<attribute name="OC_FARNELL" value="1612040" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0399" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="±0.5%" constant="no"/>
+<attribute name="VALUE" value="49.9 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0510R-510-D" prefix="R">
+<description>RESISTOR, 0402</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1005X40N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0510R-510-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9364226" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0401" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="±0.5%" constant="no"/>
+<attribute name="VALUE" value="51 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-101-B-T5" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-101-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="1653251" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0409" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="100 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-101-D" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-101-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9364323" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0411" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="100 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-102-B-T5" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-102-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="1653252" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0413" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="1 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-102-D" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-102-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9364366" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0415" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="1 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-103-B-T5" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-103-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="1653253" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0419" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="10 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-103-D" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-103-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9364420" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0421" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="10 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-104-B-T5" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-104-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="1653254" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0423" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="100 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-104-D" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-104-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9364471" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0425" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="100 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-1071-B-T5-04H" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-1071-B-T5-04H" constant="no"/>
+<attribute name="OC_FARNELL" value="9364552" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0433" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="1.07 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-1072-B-T5-04C" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-1072-B-T5-04C" constant="no"/>
+<attribute name="OC_FARNELL" value="9364579" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0435" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="10.7 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-113-B-T5" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-113-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="9364633" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0441" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="11 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-123-B-T5" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-123-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="1506026" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0459" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="12 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-134-B-T5" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-134-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="9364986" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0475" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="130 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-151-D" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-151-D" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0489" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="150 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-152-B-T5" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-152-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="1653257" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0491" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="1.5 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-153-B-T5" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-153-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="1612042" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0543" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="15 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-154-D" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-154-D" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0501" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="150 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-161-D" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-161-D" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0509" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="160 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-183-B-T5" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-183-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0527" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="18 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-201-D" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-201-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9365621" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0539" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="200 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-202-D" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-202-D" constant="no"/>
+<attribute name="OC_FARNELL" value="1612043" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0543" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="2 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-203-B-T5" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-203-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="1653264" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0545" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="20 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-203-D" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-203-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9365702" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0547" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="20 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-204-D" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-204-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9365745" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0551" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="200 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-2052-D-31C" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-2052-D-31C" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0553" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="20.5 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-2101-B-T5-32H" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-2101-B-T5-32H" constant="no"/>
+<attribute name="OC_FARNELL" value="9365788" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0555" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="2.1 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-221-D" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-221-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9365869" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0563" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="220 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-223-B-T5" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-223-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="9365966" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0573" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="22 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-224-B-T5" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-224-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="1653265" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0575" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="220 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-242-B-T5" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-242-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0587" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="2.4 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-243-D" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-243-D" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0591" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="24 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-2492-B-T5-39C" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-2492-B-T5-39C" constant="no"/>
+<attribute name="OC_FARNELL" value="9366229" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0599" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="24.9 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-2493-B-T5-39D" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-2493-B-T5-39D" constant="no"/>
+<attribute name="OC_FARNELL" value="9366245" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0601" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="249 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-2551-B-T5-40H" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-2551-B-T5-40H" constant="no"/>
+<attribute name="OC_FARNELL" value="9366261" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0603" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="2.55 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-272-D" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-272-D" constant="no"/>
+<attribute name="OC_FARNELL" value="1506029" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0613" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="2.7 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-273-B-T5" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-273-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="1692500" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0615" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="27 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-3013-D-47D" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-3013-D-47D" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0637" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="301 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-302-D" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-302-D" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0641" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="3 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-303-B-T5" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-303-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="1653267" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0643" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="30 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-331-B-T5" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-331-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0657" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="330 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-331-D" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-331-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9366857" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0659" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="330 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-333-B-T5" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-333-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="1653270" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0667" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="33 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-333-D" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-333-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9366962" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0669" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="33 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-334-D" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-334-D" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0671" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="330 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-363-D" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-363-D" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0677" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="36 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-4021-D-59H" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-4021-D-59H" constant="no"/>
+<attribute name="OC_FARNELL" value="9367357" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0707" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="4.02 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-4221-D-61H" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-4221-D-61H" constant="no"/>
+<attribute name="OC_FARNELL" value="1692500" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0717" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="4.22 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-471-D" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-471-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9367659" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0737" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="470 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-472-D" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-472-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9367691" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0741" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="4.7 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-473-D" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-473-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9367730" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0745" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="47 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-4990-D-68A" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-4990-D-68A" constant="no"/>
+<attribute name="OC_FARNELL" value="9367861" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0757" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="499 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-4992-B-T5-68C" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-4992-B-T5-68C" constant="no"/>
+<attribute name="OC_FARNELL" value="9367926" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0764" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="49.9 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-511-D" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-511-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9366202" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0770" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="510 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-512-B-T5" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-512-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="9368051" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0776" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="5.1 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-512-D" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-512-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9368078" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0778" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="5.1 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-513-B-T5" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-513-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="9368094" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0780" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="51 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-513-D" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-513-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9368116" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0782" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="51 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-561-B-T5" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-561-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="1653277" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0786" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="560 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-562-D" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-562-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9367101" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0792" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="5.6 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-5621-B-T5-73H" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-5621-B-T5-73H" constant="no"/>
+<attribute name="OC_FARNELL" value="9368230" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0794" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="5.62 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-683-D" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-683-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9368574" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0828" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="68 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-752-D" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-752-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9368671" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0838" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="7.5 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-822-D" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-822-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9368809" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0850" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="8.2 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-8872-B-T5-92C" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-8872-B-T5-92C" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0864" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="88.7 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-9311-B-T5-94H" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-9311-B-T5-94H" constant="no"/>
+<attribute name="OC_FARNELL" value="9369082" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0876" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="9.31 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816Q-100-D" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816Q-100-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9369180" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0886" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="10 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816Q-220-D" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816Q-220-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9369228" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0890" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="22 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816Q-49R9-D-68R" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816Q-49R9-D-68R" constant="no"/>
+<attribute name="OC_FARNELL" value="1612045" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0898" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="49.9 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816Q-51R1-D-69R" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816Q-51R1-D-69R" constant="no"/>
+<attribute name="OC_FARNELL" value="1612046" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0900" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="51.1 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-101-B-T5" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-101-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="1653279" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0910" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="100 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-101-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-101-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9369457" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0912" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="100 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-102-B-T5" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-102-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="1653280" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0914" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="1 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-102-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-102-D" constant="no"/>
+<attribute name="OC_FARNELL" value="1653281" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0916" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="1 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-103-B-T5" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-103-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="1653282" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0928" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="10 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-103-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-103-D" constant="no"/>
+<attribute name="OC_FARNELL" value="1653284" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0930" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="10 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-104-B-T5" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-104-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="1653285" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0932" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="100 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-104-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-104-D" constant="no"/>
+<attribute name="OC_FARNELL" value="1653286" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0934" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="100 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-105-B-T5" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-105-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="1653287" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0936" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="1M Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-105-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-105-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9369716" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0938" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="1 MOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-112-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-112-D" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0944" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="1.1 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-113-B-T5" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-113-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="1653288" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0946" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="11 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-114-B-T5" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-114-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="9369813" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0948" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="110 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-121-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-121-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9369899" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0956" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="120 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-122-B-T5" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-122-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="1653289" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0958" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="1.2 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-122-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-122-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9369937" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0960" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="1.2 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-124-B-T5" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-124-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="9369970" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0964" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="120 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-132-B-T5" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-132-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="9370072" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0974" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="1.3 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-151-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-151-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9370218" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0988" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="150 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-152-B-T5" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-152-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="1653291" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0990" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="1.5 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-152-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-152-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9370269" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0992" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="1.5 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-153-B-T5" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-153-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="9370285" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0994" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="15 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-153-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-153-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9370307" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0996" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="15 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-154-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-154-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9370340" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1000" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="150 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-181-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-181-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9370528" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1018" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="180 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-1872-B-M-T5" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-1872-B-M-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1028" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="18.7 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-201-B-T5" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-201-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="1653294" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1032" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="200 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-201-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-201-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9370684" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1034" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="200 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-202-B-T5" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-202-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="1653296" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1036" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="2 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-202-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-202-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9370722" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1038" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="2 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-203-B-T5" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-203-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="1653297" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1040" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="20 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-203-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-203-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9370765" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1042" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="20 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-204-B-T5" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-204-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="1653298" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1044" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="200 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-204-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-204-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9370803" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1046" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="200 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-221-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-221-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9370889" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1054" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="220 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-222-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-222-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9370943" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1060" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="2.2 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-223-B-T5" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-223-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="1653299" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1044" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="22 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-223-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-223-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9370986" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1064" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="22 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-242-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-242-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9371095" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1074" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="2.4 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-243-B-T5" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-243-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="9371117" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1076" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="24 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-271-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-271-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9371354" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1098" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="270 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-273-B-T5" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-273-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="1653303" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1102" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="27 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-302-B-T5" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-302-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="1653304" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1120" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="3 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-3241-D-M" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-3241-D-M" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1136" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="3.24 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-331-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-331-D" constant="no"/>
+<attribute name="OC_FARNELL" value="1612048" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1140" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="330 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-333-B-T5" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-333-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="1653306" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1146" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="33 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-333-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-333-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9371869" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1148" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="33 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-334-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-334-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9371907" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1152" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="330 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-362-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-362-D" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1158" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="3.6 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-391-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-391-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9372008" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1162" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="390 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-392-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-392-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9372040" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1166" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="3.9 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-393-B-T5" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-393-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="9372067" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1168" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="39 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-393-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-393-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9372083" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1170" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="39 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-432-B-T5" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-432-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="9372202" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1180" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="4.3 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-433-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-433-D" constant="no"/>
+<attribute name="OC_FARNELL" value="1692505" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1184" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="43 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-471-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-471-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9372326" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1192" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="470 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-472-B-T5" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-472-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="1653308" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1194" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="4.7 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-472-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-472-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9372377" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1196" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="4.7 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-473-B-T5" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-473-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="1653309" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1198" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="47 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-4990-D-M" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-4990-D-M" constant="no"/>
+<attribute name="OC_FARNELL" value="9372555" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1214" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="499 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-4991-D-M" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-4991-D-M" constant="no"/>
+<attribute name="OC_FARNELL" value="9372598" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1218" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="4.99 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-4992-D-M" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-4992-D-M" constant="no"/>
+<attribute name="OC_FARNELL" value="9372644" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1222" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="49.9 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-512-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-512-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9372750" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1232" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="5.1 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-513-B-T5" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-513-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="9372776" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1234" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="51 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-5622-B-M-T5" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-5622-B-M-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="9372911" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1248" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="56.2 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-564-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-564-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9372938" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1250" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="560 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-6041-D-M" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-6041-D-M" constant="no"/>
+<attribute name="OC_FARNELL" value="9372997" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1256" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="6.04 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-623-B-T5" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-623-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="9373110" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1268" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="62 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-681-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-681-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9373195" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1276" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="680 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-682-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-682-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9373250" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1282" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="6.8 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-684-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-684-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9373276" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1284" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="680 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-751-B-T5" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-751-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="9373357" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1292" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="750 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-752-B-T5" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-752-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="9373373" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1294" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="7.5 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-821-B-T5" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-821-B-T5" constant="no"/>
+<attribute name="OC_FARNELL" value="1653314" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1302" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.1%" constant="no"/>
+<attribute name="VALUE" value="820 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-823-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-823-D" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1310" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="82 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220P-912-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220P-912-D" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1328" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="9.1 KOhm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220Q-100-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220Q-100-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9373764" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1332" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="10 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220Q-200-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220Q-200-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9373810" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1336" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="20 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220Q-220-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220Q-220-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9373837" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1338" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="22 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220Q-270-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220Q-270-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9373870" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1342" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="27 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220Q-330-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220Q-330-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9373896" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1344" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="33 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220Q-470-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220Q-470-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9373934" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1348" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="47 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220Q-49R9-D-M" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220Q-49R9-D-M" constant="no"/>
+<attribute name="OC_FARNELL" value="1612051" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1350" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU" constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="49.9 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220Q-510-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220Q-510-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9373977" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1352" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="51 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220Q-560-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220Q-560-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9373993" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1354" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="56 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220Q-680-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220Q-680-D" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1356" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="68 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR1220Q-750-D" prefix="R">
+<description>RESISTOR, 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR1220Q-750-D" constant="no"/>
+<attribute name="OC_FARNELL" value="9374035" constant="no"/>
+<attribute name="OC_NEWARK" value="28K1358" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="75 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR0816P-4991-D-68H" prefix="R">
+<description>RESISTOR, 0603</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RR0816P-4991-D-68H" constant="no"/>
+<attribute name="OC_FARNELL" value="9367900" constant="no"/>
+<attribute name="OC_NEWARK" value="28K0761" constant="no"/>
+<attribute name="SUPPLIER" value="SUSUMU INTERNATIONAL (USA)INC." constant="no"/>
+<attribute name="TOLERANCE" value="± 0.5%" constant="no"/>
+<attribute name="VALUE" value="4.99K Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.0625 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

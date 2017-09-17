@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>Developed by element14 :&lt;br&gt;
+element14 CAD Library consolidation.ulp
+at 08/03/2012 10:12:32</description>
+<packages>
+<package name="SOT95P290X110-3N">
+<smd name="1" x="-1.27" y="0.9398" dx="0.8636" dy="0.5588" layer="1"/>
+<smd name="2" x="-1.27" y="-0.9398" dx="0.8636" dy="0.5588" layer="1"/>
+<smd name="3" x="1.27" y="0" dx="0.8636" dy="0.5588" layer="1"/>
+<wire x1="0.6604" y1="0.5334" x2="0.6604" y2="1.4478" width="0.1524" layer="21"/>
+<wire x1="-0.6096" y1="-1.4478" x2="0.6604" y2="-1.4478" width="0.1524" layer="21"/>
+<wire x1="0.6604" y1="-1.4478" x2="0.6604" y2="-0.5334" width="0.1524" layer="21"/>
+<wire x1="0.6604" y1="1.4478" x2="0.3048" y2="1.4478" width="0.1524" layer="21"/>
+<wire x1="0.3048" y1="1.4478" x2="-0.3048" y2="1.4478" width="0.1524" layer="21"/>
+<wire x1="-0.3048" y1="1.4478" x2="-0.6096" y2="1.4478" width="0.1524" layer="21"/>
+<wire x1="-0.6604" y1="0.4064" x2="-0.6604" y2="-0.4064" width="0.1524" layer="21"/>
+<wire x1="0.3048" y1="1.4478" x2="-0.3048" y2="1.4478" width="0.1524" layer="21" curve="-180"/>
+<text x="-2.1082" y="1.3716" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<wire x1="-0.6604" y1="-1.4478" x2="0.6604" y2="-1.4478" width="0" layer="51"/>
+<wire x1="0.6604" y1="-1.4478" x2="0.6604" y2="-0.254" width="0" layer="51"/>
+<wire x1="0.6604" y1="-0.254" x2="0.6604" y2="0.254" width="0" layer="51"/>
+<wire x1="0.6604" y1="0.254" x2="0.6604" y2="1.4478" width="0" layer="51"/>
+<wire x1="0.6604" y1="1.4478" x2="0.3048" y2="1.4478" width="0" layer="51"/>
+<wire x1="0.3048" y1="1.4478" x2="-0.3048" y2="1.4478" width="0" layer="51"/>
+<wire x1="-0.3048" y1="1.4478" x2="-0.6604" y2="1.4478" width="0" layer="51"/>
+<wire x1="-0.6604" y1="1.4478" x2="-0.6604" y2="1.1938" width="0" layer="51"/>
+<wire x1="-0.6604" y1="1.1938" x2="-0.6604" y2="0.7112" width="0" layer="51"/>
+<wire x1="-0.6604" y1="0.7112" x2="-0.6604" y2="-0.7112" width="0" layer="51"/>
+<wire x1="-0.6604" y1="1.1938" x2="-1.27" y2="1.1938" width="0" layer="51"/>
+<wire x1="-1.27" y1="1.1938" x2="-1.27" y2="0.7112" width="0" layer="51"/>
+<wire x1="-1.27" y1="0.7112" x2="-0.6604" y2="0.7112" width="0" layer="51"/>
+<wire x1="-0.6604" y1="-1.4478" x2="-0.6604" y2="-1.1938" width="0" layer="51"/>
+<wire x1="-0.6604" y1="-1.1938" x2="-0.6604" y2="-0.7112" width="0" layer="51"/>
+<wire x1="-0.6604" y1="-0.7112" x2="-1.27" y2="-0.7112" width="0" layer="51"/>
+<wire x1="-1.27" y1="-0.7112" x2="-1.27" y2="-1.1938" width="0" layer="51"/>
+<wire x1="-1.27" y1="-1.1938" x2="-0.6604" y2="-1.1938" width="0" layer="51"/>
+<wire x1="0.6604" y1="-0.254" x2="1.27" y2="-0.254" width="0" layer="51"/>
+<wire x1="1.27" y1="-0.254" x2="1.27" y2="0.254" width="0" layer="51"/>
+<wire x1="1.27" y1="0.254" x2="0.6604" y2="0.254" width="0" layer="51"/>
+<wire x1="0.3048" y1="1.4478" x2="-0.3048" y2="1.4478" width="0" layer="51" curve="-180"/>
+<text x="-2.1082" y="1.3716" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
+<text x="-3.4544" y="2.54" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-4.445" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="SMBT2222A">
+<pin name="B" x="0" y="0" length="middle" direction="pas"/>
+<pin name="E" x="0" y="-5.08" length="middle" direction="pas"/>
+<pin name="C" x="35.56" y="0" length="middle" direction="pas" rot="R180"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-10.16" width="0.127" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="30.48" y2="-10.16" width="0.127" layer="94"/>
+<wire x1="30.48" y1="-10.16" x2="30.48" y2="5.08" width="0.127" layer="94"/>
+<wire x1="30.48" y1="5.08" x2="5.08" y2="5.08" width="0.127" layer="94"/>
+<text x="12.0142" y="7.112" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="13.9446" y="-12.319" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+</symbol>
+<symbol name="SMBT3904">
+<pin name="B" x="0" y="0" length="middle" direction="pas"/>
+<pin name="E" x="0" y="-5.08" length="middle" direction="pas"/>
+<pin name="C" x="35.56" y="0" length="middle" direction="pas" rot="R180"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-10.16" width="0.127" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="30.48" y2="-10.16" width="0.127" layer="94"/>
+<wire x1="30.48" y1="-10.16" x2="30.48" y2="5.08" width="0.127" layer="94"/>
+<wire x1="30.48" y1="5.08" x2="5.08" y2="5.08" width="0.127" layer="94"/>
+<text x="12.3444" y="7.366" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="13.1826" y="-12.6492" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SMBT2222A" prefix="U">
+<description>NPN Silicon Switching Transistors</description>
+<gates>
+<gate name="A" symbol="SMBT2222A" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT95P290X110-3N">
+<connects>
+<connect gate="A" pin="B" pad="1"/>
+<connect gate="A" pin="C" pad="3"/>
+<connect gate="A" pin="E" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="SMBT2222A" constant="no"/>
+<attribute name="OC_FARNELL" value="1056537" constant="no"/>
+<attribute name="OC_NEWARK" value="97K9947" constant="no"/>
+<attribute name="PACKAGE" value="SOT-23-3" constant="no"/>
+<attribute name="SUPPLIER" value="INFINEON" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SMBT3904" prefix="U">
+<description>NPN Silicon Switching Transistors</description>
+<gates>
+<gate name="A" symbol="SMBT3904" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT95P290X110-3N">
+<connects>
+<connect gate="A" pin="B" pad="1"/>
+<connect gate="A" pin="C" pad="3"/>
+<connect gate="A" pin="E" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="SMBT3904" constant="no"/>
+<attribute name="OC_FARNELL" value="1056539" constant="no"/>
+<attribute name="OC_NEWARK" value="97K9949" constant="no"/>
+<attribute name="PACKAGE" value="SOT-23-3" constant="no"/>
+<attribute name="SUPPLIER" value="INFINEON" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

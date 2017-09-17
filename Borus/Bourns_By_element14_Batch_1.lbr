@@ -1,0 +1,2715 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>Developed by element14 :&lt;br&gt;
+element14 CAD Library consolidation.ulp
+at 30/07/2012 17:04:24</description>
+<packages>
+<package name="INDC1005X05N">
+<smd name="1" x="-0.4572" y="0" dx="0.508" dy="0.9906" layer="1"/>
+<smd name="2" x="0.4572" y="0" dx="0.508" dy="0.9906" layer="1"/>
+<wire x1="-0.5334" y1="-0.2794" x2="0.5334" y2="-0.2794" width="0.1524" layer="51"/>
+<wire x1="0.5334" y1="-0.2794" x2="0.5334" y2="0.2794" width="0.1524" layer="51"/>
+<wire x1="0.5334" y1="0.2794" x2="-0.5334" y2="0.2794" width="0.1524" layer="51"/>
+<wire x1="-0.5334" y1="0.2794" x2="-0.5334" y2="-0.2794" width="0.1524" layer="51"/>
+<text x="-4.699" y="0.5842" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.6642" y="-2.7686" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="INDC1608X08N">
+<smd name="1" x="-0.762" y="0" dx="0.9906" dy="1.2954" layer="1"/>
+<smd name="2" x="0.762" y="0" dx="0.9906" dy="1.2954" layer="1"/>
+<wire x1="-0.7874" y1="-0.4064" x2="0.7874" y2="-0.4064" width="0.1524" layer="51"/>
+<wire x1="0.7874" y1="-0.4064" x2="0.7874" y2="0.4064" width="0.1524" layer="51"/>
+<wire x1="0.7874" y1="0.4064" x2="-0.7874" y2="0.4064" width="0.1524" layer="51"/>
+<wire x1="-0.7874" y1="0.4064" x2="-0.7874" y2="-0.4064" width="0.1524" layer="51"/>
+<text x="-4.572" y="0.8382" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.715" y="-3.1496" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="RESC2013X65N">
+<smd name="1" x="-0.9398" y="0" dx="1.016" dy="1.397" layer="1"/>
+<smd name="2" x="0.9398" y="0" dx="1.016" dy="1.397" layer="1"/>
+<wire x1="-0.1016" y1="-0.7112" x2="0.1016" y2="-0.7112" width="0.1524" layer="21"/>
+<wire x1="0.1016" y1="0.7112" x2="-0.1016" y2="0.7112" width="0.1524" layer="21"/>
+<wire x1="-0.4318" y1="-0.7112" x2="-0.4318" y2="0.7112" width="0" layer="51"/>
+<wire x1="-0.4318" y1="0.7112" x2="-1.0668" y2="0.7112" width="0" layer="51"/>
+<wire x1="-1.0668" y1="-0.7112" x2="-0.4318" y2="-0.7112" width="0" layer="51"/>
+<wire x1="0.4318" y1="0.7112" x2="0.4318" y2="-0.7112" width="0" layer="51"/>
+<wire x1="0.4318" y1="-0.7112" x2="1.0668" y2="-0.7112" width="0" layer="51"/>
+<wire x1="1.0668" y1="0.7112" x2="0.4318" y2="0.7112" width="0" layer="51"/>
+<wire x1="-0.4318" y1="-0.7112" x2="0.4318" y2="-0.7112" width="0" layer="51"/>
+<wire x1="1.0668" y1="-0.7112" x2="1.0668" y2="0.7112" width="0" layer="51"/>
+<wire x1="0.4318" y1="0.7112" x2="-0.4318" y2="0.7112" width="0" layer="51"/>
+<wire x1="-1.0668" y1="0.7112" x2="-1.0668" y2="-0.7112" width="0" layer="51"/>
+<text x="-3.4544" y="1.27" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-3.175" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="RESC3216X71N">
+<smd name="1" x="-1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
+<smd name="2" x="1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
+<wire x1="-0.5842" y1="-0.8636" x2="0.5842" y2="-0.8636" width="0.1524" layer="21"/>
+<wire x1="0.5842" y1="0.8636" x2="-0.5842" y2="0.8636" width="0.1524" layer="21"/>
+<wire x1="-0.9144" y1="-0.8636" x2="-0.9144" y2="0.8636" width="0" layer="51"/>
+<wire x1="-0.9144" y1="0.8636" x2="-1.6764" y2="0.8636" width="0" layer="51"/>
+<wire x1="-1.6764" y1="-0.8636" x2="-0.9144" y2="-0.8636" width="0" layer="51"/>
+<wire x1="0.9144" y1="0.8636" x2="0.9144" y2="-0.8636" width="0" layer="51"/>
+<wire x1="0.9144" y1="-0.8636" x2="1.6764" y2="-0.8636" width="0" layer="51"/>
+<wire x1="1.6764" y1="0.8636" x2="0.9144" y2="0.8636" width="0" layer="51"/>
+<wire x1="-0.9144" y1="-0.8636" x2="0.9144" y2="-0.8636" width="0" layer="51"/>
+<wire x1="1.6764" y1="-0.8636" x2="1.6764" y2="0.8636" width="0" layer="51"/>
+<wire x1="0.9144" y1="0.8636" x2="-0.9144" y2="0.8636" width="0" layer="51"/>
+<wire x1="-1.6764" y1="0.8636" x2="-1.6764" y2="-0.8636" width="0" layer="51"/>
+<text x="-3.4544" y="1.905" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-3.937" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="RESC5025X71N">
+<smd name="1" x="-2.3368" y="0" dx="1.1938" dy="2.6416" layer="1"/>
+<smd name="2" x="2.3368" y="0" dx="1.1938" dy="2.6416" layer="1"/>
+<wire x1="-1.397" y1="-1.3208" x2="1.397" y2="-1.3208" width="0.1524" layer="21"/>
+<wire x1="1.397" y1="1.3208" x2="-1.397" y2="1.3208" width="0.1524" layer="21"/>
+<wire x1="-1.7272" y1="-1.3208" x2="-1.7272" y2="1.3208" width="0" layer="51"/>
+<wire x1="-1.7272" y1="1.3208" x2="-2.5654" y2="1.3208" width="0" layer="51"/>
+<wire x1="-2.5654" y1="-1.3208" x2="-1.7272" y2="-1.3208" width="0" layer="51"/>
+<wire x1="1.7272" y1="1.3208" x2="1.7272" y2="-1.3208" width="0" layer="51"/>
+<wire x1="1.7272" y1="-1.3208" x2="2.5654" y2="-1.3208" width="0" layer="51"/>
+<wire x1="2.5654" y1="1.3208" x2="1.7272" y2="1.3208" width="0" layer="51"/>
+<wire x1="-1.7272" y1="-1.3208" x2="1.7272" y2="-1.3208" width="0" layer="51"/>
+<wire x1="2.5654" y1="-1.3208" x2="2.5654" y2="1.3208" width="0" layer="51"/>
+<wire x1="1.7272" y1="1.3208" x2="-1.7272" y2="1.3208" width="0" layer="51"/>
+<wire x1="-2.5654" y1="1.3208" x2="-2.5654" y2="-1.3208" width="0" layer="51"/>
+<text x="-3.4544" y="1.905" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-3.937" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="RESC6332X71N">
+<smd name="1" x="-2.9718" y="0" dx="1.1938" dy="3.3528" layer="1"/>
+<smd name="2" x="2.9718" y="0" dx="1.1938" dy="3.3528" layer="1"/>
+<wire x1="-2.032" y1="-1.6764" x2="2.032" y2="-1.6764" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="1.6764" x2="-2.032" y2="1.6764" width="0.1524" layer="21"/>
+<wire x1="-2.3876" y1="-1.6764" x2="-2.3876" y2="1.6764" width="0" layer="51"/>
+<wire x1="-2.3876" y1="1.6764" x2="-3.2258" y2="1.6764" width="0" layer="51"/>
+<wire x1="-3.2258" y1="-1.6764" x2="-2.3876" y2="-1.6764" width="0" layer="51"/>
+<wire x1="2.3876" y1="1.6764" x2="2.3876" y2="-1.6764" width="0" layer="51"/>
+<wire x1="2.3876" y1="-1.6764" x2="3.2258" y2="-1.6764" width="0" layer="51"/>
+<wire x1="3.2258" y1="1.6764" x2="2.3876" y2="1.6764" width="0" layer="51"/>
+<wire x1="-2.3876" y1="-1.6764" x2="2.3876" y2="-1.6764" width="0" layer="51"/>
+<wire x1="3.2258" y1="-1.6764" x2="3.2258" y2="1.6764" width="0" layer="51"/>
+<wire x1="2.3876" y1="1.6764" x2="-2.3876" y2="1.6764" width="0" layer="51"/>
+<wire x1="-3.2258" y1="1.6764" x2="-3.2258" y2="-1.6764" width="0" layer="51"/>
+<text x="-3.4544" y="2.54" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-4.445" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="INDC1610X12N">
+<smd name="1" x="-0.6604" y="0" dx="0.7112" dy="1.1938" layer="1"/>
+<smd name="2" x="0.6604" y="0" dx="0.7112" dy="1.1938" layer="1"/>
+<wire x1="-0.8128" y1="-0.5334" x2="0.8128" y2="-0.5334" width="0.1524" layer="51"/>
+<wire x1="0.8128" y1="-0.5334" x2="0.8128" y2="0.5334" width="0.1524" layer="51"/>
+<wire x1="0.8128" y1="0.5334" x2="-0.8128" y2="0.5334" width="0.1524" layer="51"/>
+<wire x1="-0.8128" y1="0.5334" x2="-0.8128" y2="-0.5334" width="0.1524" layer="51"/>
+<text x="-4.4958" y="0.9144" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.5626" y="-3.0734" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="INDC2115X15N">
+<smd name="1" x="-1.016" y="0" dx="0.8636" dy="1.7018" layer="1"/>
+<smd name="2" x="1.016" y="0" dx="0.8636" dy="1.7018" layer="1"/>
+<wire x1="-0.2794" y1="-0.8382" x2="0.2794" y2="-0.8382" width="0.1524" layer="21"/>
+<wire x1="0.2794" y1="0.8382" x2="-0.2794" y2="0.8382" width="0.1524" layer="21"/>
+<wire x1="-0.6096" y1="-0.8382" x2="-0.6096" y2="0.8382" width="0.1524" layer="51"/>
+<wire x1="-0.6096" y1="0.8382" x2="-1.0922" y2="0.8382" width="0.1524" layer="51"/>
+<wire x1="-1.0922" y1="-0.8382" x2="-0.6096" y2="-0.8382" width="0.1524" layer="51"/>
+<wire x1="0.6096" y1="0.8382" x2="0.6096" y2="-0.8382" width="0.1524" layer="51"/>
+<wire x1="0.6096" y1="-0.8382" x2="1.0922" y2="-0.8382" width="0.1524" layer="51"/>
+<wire x1="1.0922" y1="0.8382" x2="0.6096" y2="0.8382" width="0.1524" layer="51"/>
+<wire x1="-0.6096" y1="-0.8382" x2="0.6096" y2="-0.8382" width="0.1524" layer="51"/>
+<wire x1="1.0922" y1="-0.8382" x2="1.0922" y2="0.8382" width="0.1524" layer="51"/>
+<wire x1="0.6096" y1="0.8382" x2="-0.6096" y2="0.8382" width="0.1524" layer="51"/>
+<wire x1="-1.0922" y1="0.8382" x2="-1.0922" y2="-0.8382" width="0.1524" layer="51"/>
+<text x="-4.6228" y="1.397" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.7658" y="-3.302" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="INDC2520X18N">
+<smd name="1" x="-1.27" y="0" dx="0.8636" dy="2.2098" layer="1"/>
+<smd name="2" x="1.27" y="0" dx="0.8636" dy="2.2098" layer="1"/>
+<wire x1="-0.508" y1="-1.0922" x2="0.508" y2="-1.0922" width="0.1524" layer="21"/>
+<wire x1="0.508" y1="1.0922" x2="-0.508" y2="1.0922" width="0.1524" layer="21"/>
+<wire x1="-0.8382" y1="-1.0922" x2="-0.8382" y2="1.0922" width="0.1524" layer="51"/>
+<wire x1="-0.8382" y1="1.0922" x2="-1.3462" y2="1.0922" width="0.1524" layer="51"/>
+<wire x1="-1.3462" y1="-1.0922" x2="-0.8382" y2="-1.0922" width="0.1524" layer="51"/>
+<wire x1="0.8382" y1="1.0922" x2="0.8382" y2="-1.0922" width="0.1524" layer="51"/>
+<wire x1="0.8382" y1="-1.0922" x2="1.3462" y2="-1.0922" width="0.1524" layer="51"/>
+<wire x1="1.3462" y1="1.0922" x2="0.8382" y2="1.0922" width="0.1524" layer="51"/>
+<wire x1="-0.8382" y1="-1.0922" x2="0.8382" y2="-1.0922" width="0.1524" layer="51"/>
+<wire x1="1.3462" y1="-1.0922" x2="1.3462" y2="1.0922" width="0.1524" layer="51"/>
+<wire x1="0.8382" y1="1.0922" x2="-0.8382" y2="1.0922" width="0.1524" layer="51"/>
+<wire x1="-1.3462" y1="1.0922" x2="-1.3462" y2="-1.0922" width="0.1524" layer="51"/>
+<text x="-4.5974" y="1.6256" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.588" y="-3.6576" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="INDC3225X22N">
+<smd name="1" x="-1.524" y="0" dx="1.2446" dy="2.159" layer="1"/>
+<smd name="2" x="1.524" y="0" dx="1.2446" dy="2.159" layer="1"/>
+<wire x1="-0.6096" y1="-1.2446" x2="0.6096" y2="-1.2446" width="0.1524" layer="21"/>
+<wire x1="0.6096" y1="1.2446" x2="-0.6096" y2="1.2446" width="0.1524" layer="21"/>
+<wire x1="-1.6002" y1="-1.2446" x2="1.6002" y2="-1.2446" width="0.1524" layer="51"/>
+<wire x1="1.6002" y1="-1.2446" x2="1.6002" y2="1.2446" width="0.1524" layer="51"/>
+<wire x1="1.6002" y1="1.2446" x2="-1.6002" y2="1.2446" width="0.1524" layer="51"/>
+<wire x1="-1.6002" y1="1.2446" x2="-1.6002" y2="-1.2446" width="0.1524" layer="51"/>
+<text x="-4.4958" y="1.6764" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.5118" y="-3.8608" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="INDC4532X34N">
+<smd name="1" x="-1.9304" y="0" dx="1.3462" dy="3.2004" layer="1"/>
+<smd name="2" x="1.9304" y="0" dx="1.3462" dy="3.2004" layer="1"/>
+<wire x1="-0.9144" y1="-1.6002" x2="0.9144" y2="-1.6002" width="0.1524" layer="21"/>
+<wire x1="0.9144" y1="1.6002" x2="-0.9144" y2="1.6002" width="0.1524" layer="21"/>
+<wire x1="-1.2446" y1="-1.6002" x2="-1.2446" y2="1.6002" width="0.1524" layer="51"/>
+<wire x1="-1.2446" y1="1.6002" x2="-2.2606" y2="1.6002" width="0.1524" layer="51"/>
+<wire x1="-2.2606" y1="-1.6002" x2="-1.2446" y2="-1.6002" width="0.1524" layer="51"/>
+<wire x1="1.2446" y1="1.6002" x2="1.2446" y2="-1.6002" width="0.1524" layer="51"/>
+<wire x1="1.2446" y1="-1.6002" x2="2.2606" y2="-1.6002" width="0.1524" layer="51"/>
+<wire x1="2.2606" y1="1.6002" x2="1.2446" y2="1.6002" width="0.1524" layer="51"/>
+<wire x1="-1.2446" y1="-1.6002" x2="1.2446" y2="-1.6002" width="0.1524" layer="51"/>
+<wire x1="2.2606" y1="-1.6002" x2="2.2606" y2="1.6002" width="0.1524" layer="51"/>
+<wire x1="1.2446" y1="1.6002" x2="-1.2446" y2="1.6002" width="0.1524" layer="51"/>
+<wire x1="-2.2606" y1="1.6002" x2="-2.2606" y2="-1.6002" width="0.1524" layer="51"/>
+<text x="-4.445" y="2.3114" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.9182" y="-4.318" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="IND">
+<pin name="1" x="15.24" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="0" y="0" length="short" direction="pas"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="7.62" y2="1.27" width="0" layer="94" curve="-180"/>
+<wire x1="2.54" y1="1.27" x2="5.08" y2="1.27" width="0" layer="94" curve="-180"/>
+<wire x1="7.62" y1="1.27" x2="10.16" y2="1.27" width="0" layer="94" curve="-180"/>
+<wire x1="10.16" y1="1.27" x2="12.7" y2="1.27" width="0" layer="94" curve="-180"/>
+<text x="2.2606" y="4.0386" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-2.4892" y="-7.4676" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+</symbol>
+<symbol name="RESH">
+<pin name="R2" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="R1" x="12.7" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="3.175" y1="1.27" x2="4.445" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="4.445" y1="-1.27" x2="5.715" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="5.715" y1="1.27" x2="6.985" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="-1.27" x2="8.255" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="1.27" x2="9.525" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.175" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="9.525" y1="-1.27" x2="10.16" y2="0" width="0.2032" layer="94"/>
+<text x="-3.1242" y="-8.7376" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="0.9906" y="2.7686" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="RESV">
+<pin name="1" x="0" y="12.7" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="3.175" width="0.2032" layer="94"/>
+<wire x1="-1.27" y1="3.175" x2="1.27" y2="4.445" width="0.2032" layer="94"/>
+<wire x1="1.27" y1="4.445" x2="-1.27" y2="5.715" width="0.2032" layer="94"/>
+<wire x1="-1.27" y1="5.715" x2="1.27" y2="6.985" width="0.2032" layer="94"/>
+<wire x1="-1.27" y1="8.255" x2="1.27" y2="9.525" width="0.2032" layer="94"/>
+<wire x1="1.27" y1="9.525" x2="0" y2="10.16" width="0.2032" layer="94"/>
+<wire x1="1.27" y1="6.985" x2="-1.27" y2="8.255" width="0.2032" layer="94"/>
+<text x="1.905" y="7.2136" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="1.905" y="0.1524" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CI100505-15NJ" prefix="L">
+<description>CHIP INDUCTOR, 15NH, 200MA, 5% 3GHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1005X05N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CI100505-15NJ" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="18C0320" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="15 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CI100505-22NJ" prefix="L">
+<description>CHIP INDUCTOR, 22NH 200MA 5% 2.2GHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1005X05N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CI100505-22NJ" constant="no"/>
+<attribute name="OC_FARNELL" value="4486481" constant="no"/>
+<attribute name="OC_NEWARK" value="18C0323" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="22 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CI100505-6N8J" prefix="L">
+<description>CHIP INDUCTOR 6.8NH 300MA 5% 4.4GHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1005X05N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CI100505-6N8J" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="18C0310" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="6.8 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CI100505-8N2J" prefix="L">
+<description>CHIP INDUCTOR, 8.2NH, 250MA, 5%, 4000MHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1005X05N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CI100505-8N2J" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="14P9655" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="8.2 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CI160808-10NJ" prefix="L">
+<description>CHIP INDUCTOR, 10NH, 300MA, 5% 3GHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X08N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CI160808-10NJ" constant="no"/>
+<attribute name="OC_FARNELL" value="4285396" constant="no"/>
+<attribute name="OC_NEWARK" value="18C0734" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="10 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CI160808-15NJ" prefix="L">
+<description>CHIP INDUCTOR, 15NH 300MA 5% 2.4GHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X08N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CI160808-15NJ" constant="no"/>
+<attribute name="OC_FARNELL" value="4486705" constant="no"/>
+<attribute name="OC_NEWARK" value="18C0736" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="15 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CI160808-1N0D" prefix="L">
+<description>CHIP INDUCTOR 1NH 300MA 0.3NH 13GHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X08N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CI160808-1N0D" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="02J4404" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±0.3 nH" constant="no"/>
+<attribute name="VALUE" value="1 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CI160808-2N2D" prefix="L">
+<description>CHIP INDUCTOR, 2.2NH, 300MA 0.3NH, 10GHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X08N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CI160808-2N2D" constant="no"/>
+<attribute name="OC_FARNELL" value="4486717" constant="no"/>
+<attribute name="OC_NEWARK" value="18C0738" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±0.3 nH" constant="no"/>
+<attribute name="VALUE" value="2.2 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CI160808-33NJ" prefix="L">
+<description>CHIP INDUCTOR, 33NH 300MA 5% 1.5GHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X08N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CI160808-33NJ" constant="no"/>
+<attribute name="OC_FARNELL" value="4285402" constant="no"/>
+<attribute name="OC_NEWARK" value="18C0744" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="33 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CI160808-47NJ" prefix="L">
+<description>CHIP INDUCTOR, 47NH 300MA 5% 1.2GHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X08N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CI160808-47NJ" constant="no"/>
+<attribute name="OC_FARNELL" value="4285414" constant="no"/>
+<attribute name="OC_NEWARK" value="18C0747" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="47 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CI160808-4N7D" prefix="L">
+<description>CHIP INDUCTOR, 4.7NH, 300MA, 0.3NH, 5GHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X08N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CI160808-4N7D" constant="no"/>
+<attribute name="OC_FARNELL" value="4285384" constant="no"/>
+<attribute name="OC_NEWARK" value="18C0746" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±0.3 nH" constant="no"/>
+<attribute name="VALUE" value="4.7 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CI160808-68NJ" prefix="L">
+<description>INDUCTOR, SMD POWER, 68NH, 300MA</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X08N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CI160808-68NJ" constant="no"/>
+<attribute name="OC_FARNELL" value="1612665" constant="no"/>
+<attribute name="OC_NEWARK" value="18C0751" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="68NH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CI160808-6N8J" prefix="L">
+<description>CHIP INDUCTOR, 6.8NH, 300MA 5% 4GHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X08N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CI160808-6N8J" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="02J4423" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="6.8 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CI160808-82NJ" prefix="L">
+<description>CHIP INDUCTOR, 82NH 300MA 5% 900MHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X08N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CI160808-82NJ" constant="no"/>
+<attribute name="OC_FARNELL" value="4963283" constant="no"/>
+<attribute name="OC_NEWARK" value="18C0753" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="82 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CI160808-R10J" prefix="L">
+<description>CHIP INDUCTOR 100NH 300MA 5% 850MHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X08N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CI160808-R10J" constant="no"/>
+<attribute name="OC_FARNELL" value="4486663" constant="no"/>
+<attribute name="OC_NEWARK" value="02J4401" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="100 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CI160808-R15J" prefix="L">
+<description>CHIP INDUCTOR 150NH 200MA 5% 680MHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X08N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CI160808-R15J" constant="no"/>
+<attribute name="OC_FARNELL" value="4486675" constant="no"/>
+<attribute name="OC_NEWARK" value="18C0730" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="150 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM0805-FW-R050ELF" prefix="R">
+<description>Resistor 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM0805-FW-R050ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865234" constant="no"/>
+<attribute name="OC_NEWARK" value="17T4231" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="0.05 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.25 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM0805-FW-R090ELF" prefix="R">
+<description>Resistor 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM0805-FW-R090ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865235" constant="no"/>
+<attribute name="OC_NEWARK" value="17T4233" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="0.09 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.25 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM0805-FX-51R0ELF" prefix="R">
+<description>Resistor 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM0805-FX-51R0ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865239" constant="no"/>
+<attribute name="OC_NEWARK" value="17T4241" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="51 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.25 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM0805-FX-R100ELF" prefix="R">
+<description>Resistor 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM0805-FX-R100ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865233" constant="no"/>
+<attribute name="OC_NEWARK" value="17T4235" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="0.1Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.25 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM0805-FX-R510ELF" prefix="R">
+<description>Resistor 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM0805-FX-R510ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865236" constant="no"/>
+<attribute name="OC_NEWARK" value="17T4237" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="0.510 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.25 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM0805-FX-R910ELF" prefix="R">
+<description>Resistor 0805</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC2013X65N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM0805-FX-R910ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865238" constant="no"/>
+<attribute name="OC_NEWARK" value="17T4239" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="0.910 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.25 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM1206-FX-10R0ELF" prefix="R">
+<description>Resistor 1206</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC3216X71N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM1206-FX-10R0ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865248" constant="no"/>
+<attribute name="OC_NEWARK" value="17T4257" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="10 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.5W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM1206-FX-51R0ELF" prefix="R">
+<description>Resistor 1206</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC3216X71N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM1206-FX-51R0ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865251" constant="no"/>
+<attribute name="OC_NEWARK" value="17T4259" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="51 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.5W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM1206-FX-R100ELF" prefix="R">
+<description>Resistor 1206</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC3216X71N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM1206-FX-R100ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865244" constant="no"/>
+<attribute name="OC_NEWARK" value="17T4249" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="0.1 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.5W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM1206-FX-R510ELF" prefix="R">
+<description>Resistor 1206</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC3216X71N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM1206-FX-R510ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865245" constant="no"/>
+<attribute name="OC_NEWARK" value="17T4251" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="0.510 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.5W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM1206-FX-R820ELF" prefix="R">
+<description>Resistor 1206</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC3216X71N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM1206-FX-R820ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865246" constant="no"/>
+<attribute name="OC_NEWARK" value="17T4253" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="0.820 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.5W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM1206-FX-R910ELF" prefix="R">
+<description>Resistor 1206</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC3216X71N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM1206-FX-R910ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865247" constant="no"/>
+<attribute name="OC_NEWARK" value="17T4255" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="0.910 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.5W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM1206-FZ-R050ELF" prefix="R">
+<description>Resistor 1206</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC3216X71N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM1206-JW-4R7ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865243" constant="no"/>
+<attribute name="OC_NEWARK" value="17T4261" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="4.7 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.5W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM1206-JW-1R0ELF" prefix="R">
+<description>Resistor 1206</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC3216X71N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM1206-JW-1R0ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865240" constant="no"/>
+<attribute name="OC_NEWARK" value="17T4263" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="1 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.5W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM1206-JW-2R2ELF" prefix="R">
+<description>Resistor 1206</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC3216X71N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM1206-JW-2R2ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865241" constant="no"/>
+<attribute name="OC_NEWARK" value="17T4265" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="2.2 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.5W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM1206-JW-4R7ELF" prefix="R">
+<description>Resistor 1206</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC3216X71N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM1206-JW-4R7ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865242" constant="no"/>
+<attribute name="OC_NEWARK" value="17T4267" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="4.7 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="0.5W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM2010-FX-51R0ELF" prefix="R">
+<description>Resistor 2010</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC5025X71N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM2010-FX-51R0ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865264" constant="no"/>
+<attribute name="OC_NEWARK" value="17T4275" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="51 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM2010-FX-R100ELF" prefix="R">
+<description>Resistor 2010</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC5025X71N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM2010-FX-R100ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865260" constant="no"/>
+<attribute name="OC_NEWARK" value="17T4269" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="0.1 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM2010-FX-R510ELF" prefix="R">
+<description>Resistor 2010</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC5025X71N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM2010-FX-R510ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865261" constant="no"/>
+<attribute name="OC_NEWARK" value="17T4271" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="0.510 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM2010-FX-R910ELF" prefix="R">
+<description>Resistor 2010</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC5025X71N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM2010-FX-R910ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865263" constant="no"/>
+<attribute name="OC_NEWARK" value="17T4273" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="0.910 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM2010-FZ-R050ELF" prefix="R">
+<description>Resistor 2010</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC5025X71N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM2010-FZ-R050ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865257" constant="no"/>
+<attribute name="OC_NEWARK" value="17T4278" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="0.05 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM2010-FZ-R082ELF" prefix="R">
+<description>Resistor 2010</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC5025X71N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM2010-FZ-R082ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865258" constant="no"/>
+<attribute name="OC_NEWARK" value="17T4279" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="0.08 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM2010-FZ-R090ELF" prefix="R">
+<description>Resistor 2010</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC5025X71N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM2010-FZ-R090ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865259" constant="no"/>
+<attribute name="OC_NEWARK" value="17T4281" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="0.09 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM2010-JW-1R0ELF" prefix="R">
+<description>Resistor 2010</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC5025X71N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM2010-JW-1R0ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865252" constant="no"/>
+<attribute name="OC_NEWARK" value="17T4283" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="1 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM2010-JW-2R2ELF" prefix="R">
+<description>Resistor 2010</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC5025X71N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM2010-JW-2R2ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865253" constant="no"/>
+<attribute name="OC_NEWARK" value="17T4285" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="2.2 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM2010-JW-3R3ELF" prefix="R">
+<description>Resistor 2010</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC5025X71N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM2010-JW-3R3ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865254" constant="no"/>
+<attribute name="OC_NEWARK" value="17T4287" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="3.3 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM2010-JW-4R7ELF" prefix="R">
+<description>Resistor 2010</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC5025X71N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM2010-JW-4R7ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865255" constant="no"/>
+<attribute name="OC_NEWARK" value="17T4289" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="4.7 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM2010-JW-7R5ELF" prefix="R">
+<description>Resistor 2010</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC5025X71N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM2010-JW-7R5ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865256" constant="no"/>
+<attribute name="OC_NEWARK" value="17T4291" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="7.5 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="1 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM2512-FX-R100ELF" prefix="R">
+<description>Resistor 2512</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC6332X71N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM2512-FX-R100ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865265" constant="no"/>
+<attribute name="OC_NEWARK" value="14P5590" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="0.1 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="2W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM2512-FX-R300ELF" prefix="R">
+<description>Resistor 2512</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC6332X71N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM2512-FX-R300ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865266" constant="no"/>
+<attribute name="OC_NEWARK" value="14P5592" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="0.300 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="2W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM2512-FX-R510ELF" prefix="R">
+<description>Resistor 2512</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC6332X71N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM2512-FX-R510ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865267" constant="no"/>
+<attribute name="OC_NEWARK" value="14T0334" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±1 %" constant="no"/>
+<attribute name="VALUE" value="0.510 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="2W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM2512-JW-100ELF" prefix="R">
+<description>Resistor 2512</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC6332X71N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM2512-JW-100ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865271" constant="no"/>
+<attribute name="OC_NEWARK" value="14T0336" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="1 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="2W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM2512-JW-104ELF" prefix="R">
+<description>Resistor 2512</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC6332X71N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM2512-JW-104ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865273" constant="no"/>
+<attribute name="OC_NEWARK" value="14T0337" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="100K" constant="no"/>
+<attribute name="WATTAGE" value="2W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM2512-JW-1R0ELF" prefix="R">
+<description>Resistor 2512</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC6332X71N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM2512-JW-1R0ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865268" constant="no"/>
+<attribute name="OC_NEWARK" value="14T0335" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="1 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="2W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM2512-JW-201ELF" prefix="R">
+<description>Resistor 2512</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC6332X71N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM2512-JW-201ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865272" constant="no"/>
+<attribute name="OC_NEWARK" value="14T0340" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="200 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="2W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM2512-JW-2R2ELF" prefix="R">
+<description>Resistor 2512</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC6332X71N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM2512-JW-2R2ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865269" constant="no"/>
+<attribute name="OC_NEWARK" value="14T0338" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="2.2 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="2W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRM2512-JW-4R7ELF" prefix="R">
+<description>Resistor 2512</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC6332X71N">
+<connects>
+<connect gate="A" pin="R1" pad="1"/>
+<connect gate="A" pin="R2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CRM2512-JW-4R7ELF" constant="no"/>
+<attribute name="OC_FARNELL" value="1865270" constant="no"/>
+<attribute name="OC_NEWARK" value="14T0341" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="4.7 Ohm" constant="no"/>
+<attribute name="WATTAGE" value="2W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CW160808-22NJ" prefix="L">
+<description>HF INDUCTOR, 25.3NH, 700MA, 5% 3GHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1610X12N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CW160808-22NJ" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="34C8750" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="22 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CW160808-R27J" prefix="L">
+<description>HF INDUCTOR, 270NH, 170MA 5% 990MHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1610X12N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CW160808-R27J" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="14P9659" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="270 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CW201212-33NJ" prefix="L">
+<description>HF INDUCTOR</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2115X15N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CW201212-33NJ" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="34C8765" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="33 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CW201212-68NJ" prefix="L">
+<description>HF INDUCTOR</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2115X15N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CW201212-68NJ" constant="no"/>
+<attribute name="OC_FARNELL" value="4803700" constant="no"/>
+<attribute name="OC_NEWARK" value="34C8768" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="68 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CW201212-R22J" prefix="L">
+<description>HF INDUCTOR</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2115X15N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CW201212-R22J" constant="no"/>
+<attribute name="OC_FARNELL" value="1693492" constant="no"/>
+<attribute name="OC_NEWARK" value="14P9661" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="220 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CW201212-R33J" prefix="L">
+<description>HF INDUCTOR</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2115X15N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CW201212-R33J" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="14P9662" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="330 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CW252016-10NK" prefix="L">
+<description>HF INDUCTOR</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2520X18N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CW252016-10NK" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="34C8777" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±10 %" constant="no"/>
+<attribute name="VALUE" value="10 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CW252016-1R0J" prefix="L">
+<description>HF INDUCTOR 1.003UH 330MA 5% 290MHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2520X18N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CW252016-1R0J" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="34C8775" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="1000 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CW252016-4R7J" prefix="L">
+<description>HF INDUCTOR, 4.7UH, 175MA, 5% 43MHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2520X18N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CW252016-4R7J" constant="no"/>
+<attribute name="OC_FARNELL" value="6391515" constant="no"/>
+<attribute name="OC_NEWARK" value="10C0103" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="4700 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CW252016-R10J" prefix="L">
+<description>HF INDUCTOR</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2520X18N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CW252016-R10J" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="34C8769" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="100 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CW252016-R33J" prefix="L">
+<description>HF INDUCTOR</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2520X18N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CW252016-R33J" constant="no"/>
+<attribute name="OC_FARNELL" value="4803735" constant="no"/>
+<attribute name="OC_NEWARK" value="34C8772" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="330 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CW252016-R47J" prefix="L">
+<description>HF INDUCTOR</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2520X18N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CW252016-R47J" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="34C8773" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="470 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CW252016-R68J" prefix="L">
+<description>HF INDUCTOR</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2520X18N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CW252016-R68J" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="34C8774" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="680 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM0603-18NJ-RC" prefix="L">
+<description>CHIP INDUCTOR 18NH 700MA 5% 3100MHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1610X12N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM0603-18NJ-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="97M3820" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="18 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM0603-33NJ-RC" prefix="L">
+<description>CHIP INDUCTOR 33NH 600MA 5% 2300MHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1610X12N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM0603-33NJ-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="97M3821" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="33 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM0603-39NJ-RC" prefix="L">
+<description>INDUCTOR, 39NH, 600MA, ±0.3nH, 2.2GHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1610X12N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM0603-39NJ-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="86K1786" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="39 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM0603-47NJ-RC" prefix="L">
+<description>CHIP INDUCTOR 47NH 600MA 5% 2000MHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1610X12N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM0603-47NJ-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="97M3822" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="47 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM0603-82NJ-RC" prefix="L">
+<description>CHIP INDUCTOR 82NH 400MA 5% 1700MHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1610X12N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM0603-82NJ-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="1601963" constant="no"/>
+<attribute name="OC_NEWARK" value="97M3823" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="82 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM0603-R10J-RC" prefix="L">
+<description>CHIP INDUCTOR, 100NH, 400MA, 5%, 1400MHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1610X12N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM0603-R10J-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="97M3817" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="100 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM0603-R12J-RC" prefix="L">
+<description>CHIP INDUCTOR, 120NH, 300MA, 5%, 1300MHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1610X12N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM0603-R12J-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="86K1771" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="120 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM0805-56NK-RC" prefix="L">
+<description>CHIP INDUCTOR, 56NH, 500mA, 10%, 1.55GHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2115X15N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM0805-56NK-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="63K3024" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±10 %" constant="no"/>
+<attribute name="VALUE" value="56 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM0805-68NK-RC" prefix="L">
+<description>CHIP INDUCTOR, 68NH, 500mA, 10%, 1.45GHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2115X15N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM0805-68NK-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="1180402" constant="no"/>
+<attribute name="OC_NEWARK" value="63K3026" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±10 %" constant="no"/>
+<attribute name="VALUE" value="68 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM0805-8N2M-RC" prefix="L">
+<description>CHIP INDUCTOR, 8.2NH, 600mA, 20%, 4.7GHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2115X15N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM0805-8N2M-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="63K3027" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VALUE" value="8.2 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM0805-R10K-RC" prefix="L">
+<description>CHIP INDUCTOR, 100NH, 400mA, 10%, 1.2GHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2115X15N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM0805-R10K-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="63K3004" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±10 %" constant="no"/>
+<attribute name="VALUE" value="100 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM0805-R15K-RC" prefix="L">
+<description>CHIP INDUCTOR, 150NH, 400mA, 10%, 920MHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2115X15N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM0805-R15K-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="63K3006" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±10 %" constant="no"/>
+<attribute name="VALUE" value="150 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM1008-1R0K-RC" prefix="L">
+<description>CHIP  INDUCTOR</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2520X18N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM1008-1R0K-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="63K3041" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±10 %" constant="no"/>
+<attribute name="VALUE" value="1000 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM1008-1R2K-RC" prefix="L">
+<description>CHIP  INDUCTOR</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2520X18N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM1008-1R2K-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="83R8591" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±10 %" constant="no"/>
+<attribute name="VALUE" value="1200 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM1008-1R8K-RC" prefix="L">
+<description>CHIP  INDUCTOR</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2520X18N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM1008-1R8K-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="63K3044" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±10 %" constant="no"/>
+<attribute name="VALUE" value="1800 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM1008-22NM-RC" prefix="L">
+<description>CHIP  INDUCTOR</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2520X18N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM1008-22NM-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="1167683" constant="no"/>
+<attribute name="OC_NEWARK" value="63K3052" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±20 %" constant="no"/>
+<attribute name="VALUE" value="22 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM1008-2R2K-RC" prefix="L">
+<description>CHIP  INDUCTOR</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2520X18N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM1008-2R2K-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="63K3050" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±10 %" constant="no"/>
+<attribute name="VALUE" value="2200 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM1008-2R7K-RC" prefix="L">
+<description>CHIP  INDUCTOR</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2520X18N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM1008-2R7K-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="63K3051" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±10 %" constant="no"/>
+<attribute name="VALUE" value="2700 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM1008-3R3K-RC" prefix="L">
+<description>CHIP  INDUCTOR</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2520X18N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM1008-3R3K-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="63K3054" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±10 %" constant="no"/>
+<attribute name="VALUE" value="3300 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM1008-4R7K-RC" prefix="L">
+<description>CHIP  INDUCTOR</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2520X18N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM1008-4R7K-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="1180428" constant="no"/>
+<attribute name="OC_NEWARK" value="63K3058" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±10 %" constant="no"/>
+<attribute name="VALUE" value="4700 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM1210-100J-RC" prefix="L">
+<description>CHIP INDUCTOR, 10UH, 150MA 5% 36MHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X22N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM1210-100J-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="1180465" constant="no"/>
+<attribute name="OC_NEWARK" value="63K3094" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="10 uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM1210-121J-RC" prefix="L">
+<description>INDUCTOR, 120UH, 55MA, 5%, 10MHz</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X22N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM1210-121J-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="83R8639" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="120 uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM1210-1R0J-RC" prefix="L">
+<description>CHIP INDUCTOR, 1UH, 400MA 5% 120MHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X22N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM1210-1R0J-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="1180462" constant="no"/>
+<attribute name="OC_NEWARK" value="63K3090" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="1.0 uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM1210-2R2J-RC" prefix="L">
+<description>CHIP INDUCTOR, 2.2UH 320MA 5% 75MHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X22N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM1210-2R2J-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="1180471" constant="no"/>
+<attribute name="OC_NEWARK" value="63K3102" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="2.2 uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM1210-470J-RC" prefix="L">
+<description>CHIP INDUCTOR, 47UH, 60MA, 5% 15MHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X22N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM1210-470J-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="1180482" constant="no"/>
+<attribute name="OC_NEWARK" value="63K3112" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="47 uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM1210-4R7J-RC" prefix="L">
+<description>CHIP INDUCTOR, 4.7UH 220MA 5% 50MHZ</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X22N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM1210-4R7J-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="1180481" constant="no"/>
+<attribute name="OC_NEWARK" value="63K3111" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5 %" constant="no"/>
+<attribute name="VALUE" value="2.2 uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM1812-100J-RC" prefix="L">
+<description>INDUCTOR</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC4532X34N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM1812-100J-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="1167688" constant="no"/>
+<attribute name="OC_NEWARK" value="63K3135" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="10 uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM1812-101J-RC" prefix="L">
+<description>INDUCTOR</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC4532X34N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM1812-101J-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="1180508" constant="no"/>
+<attribute name="OC_NEWARK" value="63K3136" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="100 uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM1812-102J-RC" prefix="L">
+<description>INDUCTOR</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC4532X34N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM1812-102J-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="1180509" constant="no"/>
+<attribute name="OC_NEWARK" value="63K3137" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="1000 uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM1812-1R0J-RC" prefix="L">
+<description>INDUCTOR</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC4532X34N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM1812-1R0J-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="63K3131" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="1 uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM1812-1R2J-RC" prefix="L">
+<description>INDUCTOR</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC4532X34N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM1812-1R2J-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="1180505" constant="no"/>
+<attribute name="OC_NEWARK" value="63K3132" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="1.2 uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM1812-221J-RC" prefix="L">
+<description>INDUCTOR</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC4532X34N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM1812-221J-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="1167689" constant="no"/>
+<attribute name="OC_NEWARK" value="63K3147" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="220 uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM1812-2R2J-RC" prefix="L">
+<description>INDUCTOR</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC4532X34N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM1812-2R2J-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="1180517" constant="no"/>
+<attribute name="OC_NEWARK" value="83R8660" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="2.2 uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM1812-330J-RC" prefix="L">
+<description>INDUCTOR</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC4532X34N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="PM1812-330J-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="63K3152" constant="no"/>
+<attribute name="SUPPLIER" value="BOURNS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="33 uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

@@ -1,0 +1,4210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>Developed by element14 :&lt;br&gt;
+element14 CAD Library consolidation.ulp
+at 30/07/2012 17:11:27</description>
+<packages>
+<package name="CAPC1608X85N">
+<smd name="1" x="-0.7112" y="0" dx="0.6604" dy="0.9398" layer="1"/>
+<smd name="2" x="0.7112" y="0" dx="0.6604" dy="0.9398" layer="1"/>
+<wire x1="-0.381" y1="-0.4826" x2="-0.381" y2="0.4826" width="0" layer="51"/>
+<wire x1="-0.381" y1="0.4826" x2="-0.8636" y2="0.4826" width="0" layer="51"/>
+<wire x1="-0.8636" y1="-0.4826" x2="-0.381" y2="-0.4826" width="0" layer="51"/>
+<wire x1="0.381" y1="0.4826" x2="0.381" y2="-0.4826" width="0" layer="51"/>
+<wire x1="0.381" y1="-0.4826" x2="0.8636" y2="-0.4826" width="0" layer="51"/>
+<wire x1="0.8636" y1="0.4826" x2="0.381" y2="0.4826" width="0" layer="51"/>
+<wire x1="-0.381" y1="-0.4826" x2="0.381" y2="-0.4826" width="0" layer="51"/>
+<wire x1="0.8636" y1="-0.4826" x2="0.8636" y2="0.4826" width="0" layer="51"/>
+<wire x1="0.381" y1="0.4826" x2="-0.381" y2="0.4826" width="0" layer="51"/>
+<wire x1="-0.8636" y1="0.4826" x2="-0.8636" y2="-0.4826" width="0" layer="51"/>
+<text x="-2.8702" y="0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-1.905" size="1.27" layer="27" ratio="6" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="CAPC2013X70N">
+<smd name="1" x="-0.8128" y="0" dx="0.9144" dy="1.4478" layer="1"/>
+<smd name="2" x="0.8128" y="0" dx="0.9144" dy="1.4478" layer="1"/>
+<wire x1="-0.3556" y1="-0.7366" x2="-0.3556" y2="0.7366" width="0" layer="51"/>
+<wire x1="-0.3556" y1="0.7366" x2="-1.0922" y2="0.7366" width="0" layer="51"/>
+<wire x1="-1.0922" y1="-0.7366" x2="-0.3556" y2="-0.7366" width="0" layer="51"/>
+<wire x1="0.3556" y1="0.7366" x2="0.3556" y2="-0.7366" width="0" layer="51"/>
+<wire x1="0.3556" y1="-0.7366" x2="1.0922" y2="-0.7366" width="0" layer="51"/>
+<wire x1="1.0922" y1="0.7366" x2="0.3556" y2="0.7366" width="0" layer="51"/>
+<wire x1="-0.3556" y1="-0.7366" x2="0.3556" y2="-0.7366" width="0" layer="51"/>
+<wire x1="1.0922" y1="-0.7366" x2="1.0922" y2="0.7366" width="0" layer="51"/>
+<wire x1="0.3556" y1="0.7366" x2="-0.3556" y2="0.7366" width="0" layer="51"/>
+<wire x1="-1.0922" y1="0.7366" x2="-1.0922" y2="-0.7366" width="0" layer="51"/>
+<text x="-2.8702" y="0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-1.905" size="1.27" layer="27" ratio="6" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="THERM_B57221V2103J60">
+<smd name="1" x="-0.4826" y="0" dx="0.4572" dy="0.6096" layer="1"/>
+<smd name="2" x="0.4826" y="0" dx="0.4572" dy="0.6096" layer="1"/>
+<wire x1="-0.5588" y1="-0.2794" x2="0.5588" y2="-0.2794" width="0.1524" layer="51"/>
+<wire x1="0.5588" y1="-0.2794" x2="0.5588" y2="0.2794" width="0.1524" layer="51"/>
+<wire x1="0.5588" y1="0.2794" x2="-0.5588" y2="0.2794" width="0.1524" layer="51"/>
+<wire x1="-0.5588" y1="0.2794" x2="-0.5588" y2="-0.2794" width="0.1524" layer="51"/>
+<text x="-4.7752" y="0.8636" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.715" y="-3.048" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="THERM_B57311V2221J60">
+<smd name="1" x="-0.9144" y="0" dx="0.7874" dy="0.889" layer="1"/>
+<smd name="2" x="0.9144" y="0" dx="0.7874" dy="0.889" layer="1"/>
+<wire x1="-0.1778" y1="-0.4572" x2="0.1778" y2="-0.4572" width="0.1524" layer="21"/>
+<wire x1="0.1778" y1="0.4572" x2="-0.1778" y2="0.4572" width="0.1524" layer="21"/>
+<wire x1="-0.8636" y1="-0.4572" x2="0.8636" y2="-0.4572" width="0.1524" layer="51"/>
+<wire x1="0.8636" y1="-0.4572" x2="0.8636" y2="0.4572" width="0.1524" layer="51"/>
+<wire x1="0.8636" y1="0.4572" x2="-0.8636" y2="0.4572" width="0.1524" layer="51"/>
+<wire x1="-0.8636" y1="0.4572" x2="-0.8636" y2="-0.4572" width="0.1524" layer="51"/>
+<text x="-4.4704" y="1.0922" size="2.032" layer="25" ratio="5" rot="SR0">&gt;NAME</text>
+<text x="-5.5372" y="-3.1242" size="2.032" layer="27" ratio="5" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="THERM_B57321V2103J60">
+<smd name="1" x="-0.9144" y="0" dx="0.7874" dy="0.889" layer="1"/>
+<smd name="2" x="0.9144" y="0" dx="0.7874" dy="0.889" layer="1"/>
+<wire x1="-0.1778" y1="-0.4572" x2="0.1778" y2="-0.4572" width="0.1524" layer="21"/>
+<wire x1="0.1778" y1="0.4572" x2="-0.1778" y2="0.4572" width="0.1524" layer="21"/>
+<wire x1="-0.8636" y1="-0.4572" x2="0.8636" y2="-0.4572" width="0.1524" layer="51"/>
+<wire x1="0.8636" y1="-0.4572" x2="0.8636" y2="0.4572" width="0.1524" layer="51"/>
+<wire x1="0.8636" y1="0.4572" x2="-0.8636" y2="0.4572" width="0.1524" layer="51"/>
+<wire x1="-0.8636" y1="0.4572" x2="-0.8636" y2="-0.4572" width="0.1524" layer="51"/>
+<text x="-4.4704" y="1.0922" size="2.032" layer="25" ratio="5" rot="SR0">&gt;NAME</text>
+<text x="-5.5372" y="-3.1242" size="2.032" layer="27" ratio="5" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="THERM_B57421V2102J62">
+<smd name="1" x="-0.889" y="0" dx="0.7366" dy="1.6002" layer="1"/>
+<smd name="2" x="0.889" y="0" dx="0.7366" dy="1.6002" layer="1"/>
+<wire x1="-0.1778" y1="-0.7112" x2="0.1778" y2="-0.7112" width="0.1524" layer="21"/>
+<wire x1="0.1778" y1="0.7112" x2="-0.1778" y2="0.7112" width="0.1524" layer="21"/>
+<wire x1="-1.0922" y1="-0.7112" x2="1.0922" y2="-0.7112" width="0.1524" layer="51"/>
+<wire x1="1.0922" y1="-0.7112" x2="1.0922" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="1.0922" y1="0.7112" x2="-1.0922" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="-1.0922" y1="0.7112" x2="-1.0922" y2="-0.7112" width="0.1524" layer="51"/>
+<text x="-2.8702" y="0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-1.905" size="1.27" layer="27" ratio="6" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="THERM_B57421V2103J62">
+<smd name="1" x="-0.889" y="0" dx="0.7366" dy="1.6002" layer="1"/>
+<smd name="2" x="0.889" y="0" dx="0.7366" dy="1.6002" layer="1"/>
+<wire x1="-0.1778" y1="-0.7112" x2="0.1778" y2="-0.7112" width="0.1524" layer="21"/>
+<wire x1="0.1778" y1="0.7112" x2="-0.1778" y2="0.7112" width="0.1524" layer="21"/>
+<wire x1="-1.0922" y1="-0.7112" x2="1.0922" y2="-0.7112" width="0.1524" layer="51"/>
+<wire x1="1.0922" y1="-0.7112" x2="1.0922" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="1.0922" y1="0.7112" x2="-1.0922" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="-1.0922" y1="0.7112" x2="-1.0922" y2="-0.7112" width="0.1524" layer="51"/>
+<text x="-2.8702" y="0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-1.905" size="1.27" layer="27" ratio="6" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="THERM_B57421V2471J62">
+<smd name="1" x="-0.9652" y="0" dx="0.889" dy="1.4986" layer="1"/>
+<smd name="2" x="0.9652" y="0" dx="0.889" dy="1.4986" layer="1"/>
+<wire x1="-0.1778" y1="-0.7112" x2="0.1778" y2="-0.7112" width="0.1524" layer="21"/>
+<wire x1="0.1778" y1="0.7112" x2="-0.1778" y2="0.7112" width="0.1524" layer="21"/>
+<wire x1="-1.1938" y1="-0.7112" x2="1.1938" y2="-0.7112" width="0.1524" layer="51"/>
+<wire x1="1.1938" y1="-0.7112" x2="1.1938" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="1.1938" y1="0.7112" x2="-1.1938" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="-1.1938" y1="0.7112" x2="-1.1938" y2="-0.7112" width="0.1524" layer="51"/>
+<text x="-4.9022" y="1.3716" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.7658" y="-3.2512" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="THERM_B57620C221J62">
+<smd name="1" x="-0.9652" y="0" dx="0.889" dy="1.4986" layer="1"/>
+<smd name="2" x="0.9652" y="0" dx="0.889" dy="1.4986" layer="1"/>
+<wire x1="-0.1778" y1="-0.7112" x2="0.1778" y2="-0.7112" width="0.1524" layer="21"/>
+<wire x1="0.1778" y1="0.7112" x2="-0.1778" y2="0.7112" width="0.1524" layer="21"/>
+<wire x1="-1.1938" y1="-0.7112" x2="1.1938" y2="-0.7112" width="0.1524" layer="51"/>
+<wire x1="1.1938" y1="-0.7112" x2="1.1938" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="1.1938" y1="0.7112" x2="-1.1938" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="-1.1938" y1="0.7112" x2="-1.1938" y2="-0.7112" width="0.1524" layer="51"/>
+<text x="-4.9022" y="1.3716" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.7658" y="-3.2512" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="THERM_B57620C471J62">
+<smd name="1" x="-0.9652" y="0" dx="0.889" dy="1.4986" layer="1"/>
+<smd name="2" x="0.9652" y="0" dx="0.889" dy="1.4986" layer="1"/>
+<wire x1="-0.1778" y1="-0.7112" x2="0.1778" y2="-0.7112" width="0.1524" layer="21"/>
+<wire x1="0.1778" y1="0.7112" x2="-0.1778" y2="0.7112" width="0.1524" layer="21"/>
+<wire x1="-1.1938" y1="-0.7112" x2="1.1938" y2="-0.7112" width="0.1524" layer="51"/>
+<wire x1="1.1938" y1="-0.7112" x2="1.1938" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="1.1938" y1="0.7112" x2="-1.1938" y2="0.7112" width="0.1524" layer="51"/>
+<wire x1="-1.1938" y1="0.7112" x2="-1.1938" y2="-0.7112" width="0.1524" layer="51"/>
+<text x="-4.9022" y="1.3716" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.7658" y="-3.2512" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="THERM_B57621C472J62">
+<smd name="1" x="-1.4478" y="0" dx="0.7112" dy="1.905" layer="1"/>
+<smd name="2" x="1.4478" y="0" dx="0.7112" dy="1.905" layer="1"/>
+<wire x1="-0.762" y1="-0.889" x2="0.762" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="0.889" x2="-0.762" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="-1.7018" y1="-0.889" x2="1.7018" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="1.7018" y1="-0.889" x2="1.7018" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="1.7018" y1="0.889" x2="-1.7018" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="-1.7018" y1="0.889" x2="-1.7018" y2="-0.889" width="0.1524" layer="51"/>
+<text x="-2.8702" y="1.905" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-3.175" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="INDC3225X210N">
+<smd name="1" x="-1.6256" y="0" dx="1.143" dy="2.6924" layer="1"/>
+<smd name="2" x="1.6256" y="0" dx="1.143" dy="2.6924" layer="1"/>
+<wire x1="-0.7112" y1="-1.2446" x2="0.7112" y2="-1.2446" width="0.1524" layer="21"/>
+<wire x1="0.7112" y1="1.2446" x2="-0.7112" y2="1.2446" width="0.1524" layer="21"/>
+<wire x1="-1.6002" y1="-1.2446" x2="1.6002" y2="-1.2446" width="0.1524" layer="51"/>
+<wire x1="1.6002" y1="-1.2446" x2="1.6002" y2="1.2446" width="0.1524" layer="51"/>
+<wire x1="1.6002" y1="1.2446" x2="-1.6002" y2="1.2446" width="0.1524" layer="51"/>
+<wire x1="-1.6002" y1="1.2446" x2="-1.6002" y2="-1.2446" width="0.1524" layer="51"/>
+<text x="-4.5212" y="1.905" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.5626" y="-3.9116" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="INDC3225X220N">
+<smd name="1" x="-1.5494" y="0" dx="1.2954" dy="2.6924" layer="1"/>
+<smd name="2" x="1.5494" y="0" dx="1.2954" dy="2.6924" layer="1"/>
+<wire x1="-0.5588" y1="-1.2446" x2="0.5588" y2="-1.2446" width="0.1524" layer="21"/>
+<wire x1="0.5588" y1="1.2446" x2="-0.5588" y2="1.2446" width="0.1524" layer="21"/>
+<wire x1="-1.6002" y1="-1.2446" x2="1.6002" y2="-1.2446" width="0.1524" layer="51"/>
+<wire x1="1.6002" y1="-1.2446" x2="1.6002" y2="1.2446" width="0.1524" layer="51"/>
+<wire x1="1.6002" y1="1.2446" x2="-1.6002" y2="1.2446" width="0.1524" layer="51"/>
+<wire x1="-1.6002" y1="1.2446" x2="-1.6002" y2="-1.2446" width="0.1524" layer="51"/>
+<text x="-4.7752" y="1.8796" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.7912" y="-3.7846" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="INDC2532X220N">
+<smd name="1" x="-1.5494" y="0" dx="1.2954" dy="2.6924" layer="1"/>
+<smd name="2" x="1.5494" y="0" dx="1.2954" dy="2.6924" layer="1"/>
+<wire x1="-0.5588" y1="-1.2446" x2="0.5588" y2="-1.2446" width="0.1524" layer="21"/>
+<wire x1="0.5588" y1="1.2446" x2="-0.5588" y2="1.2446" width="0.1524" layer="21"/>
+<wire x1="-1.6002" y1="-1.2446" x2="1.6002" y2="-1.2446" width="0.1524" layer="51"/>
+<wire x1="1.6002" y1="-1.2446" x2="1.6002" y2="1.2446" width="0.1524" layer="51"/>
+<wire x1="1.6002" y1="1.2446" x2="-1.6002" y2="1.2446" width="0.1524" layer="51"/>
+<wire x1="-1.6002" y1="1.2446" x2="-1.6002" y2="-1.2446" width="0.1524" layer="51"/>
+<text x="-4.6482" y="1.5748" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.715" y="-3.7592" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="INDC3225X240N">
+<smd name="1" x="-1.5494" y="0" dx="1.2954" dy="2.6924" layer="1"/>
+<smd name="2" x="1.5494" y="0" dx="1.2954" dy="2.6924" layer="1"/>
+<wire x1="-0.5588" y1="-1.3462" x2="0.5588" y2="-1.3462" width="0.1524" layer="21"/>
+<wire x1="0.5588" y1="1.3462" x2="-0.5588" y2="1.3462" width="0.1524" layer="21"/>
+<wire x1="-1.7018" y1="-1.3462" x2="1.7018" y2="-1.3462" width="0.1524" layer="51"/>
+<wire x1="1.7018" y1="-1.3462" x2="1.7018" y2="1.3462" width="0.1524" layer="51"/>
+<wire x1="1.7018" y1="1.3462" x2="-1.7018" y2="1.3462" width="0.1524" layer="51"/>
+<wire x1="-1.7018" y1="1.3462" x2="-1.7018" y2="-1.3462" width="0.1524" layer="51"/>
+<text x="-4.7498" y="1.4732" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.6642" y="-3.683" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="INDC2317X140N">
+<smd name="1" x="-1.1684" y="0" dx="1.2446" dy="1.7018" layer="1"/>
+<smd name="2" x="1.1684" y="0" dx="1.2446" dy="1.7018" layer="1"/>
+<wire x1="-0.2286" y1="-0.8382" x2="0.2286" y2="-0.8382" width="0.1524" layer="21"/>
+<wire x1="0.2286" y1="0.8382" x2="-0.2286" y2="0.8382" width="0.1524" layer="21"/>
+<wire x1="-1.143" y1="-0.8382" x2="1.143" y2="-0.8382" width="0.1524" layer="51"/>
+<wire x1="1.143" y1="-0.8382" x2="1.143" y2="0.8382" width="0.1524" layer="51"/>
+<wire x1="1.143" y1="0.8382" x2="-1.143" y2="0.8382" width="0.1524" layer="51"/>
+<wire x1="-1.143" y1="0.8382" x2="-1.143" y2="-0.8382" width="0.1524" layer="51"/>
+<text x="-4.5974" y="1.1938" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.6134" y="-3.2766" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="INDC3225X230N">
+<smd name="1" x="-1.6256" y="0" dx="1.143" dy="2.6924" layer="1"/>
+<smd name="2" x="1.6256" y="0" dx="1.143" dy="2.6924" layer="1"/>
+<wire x1="-0.7112" y1="-1.2446" x2="0.7112" y2="-1.2446" width="0.1524" layer="21"/>
+<wire x1="0.7112" y1="1.2446" x2="-0.7112" y2="1.2446" width="0.1524" layer="21"/>
+<wire x1="-1.6002" y1="-1.2446" x2="1.6002" y2="-1.2446" width="0.1524" layer="51"/>
+<wire x1="1.6002" y1="-1.2446" x2="1.6002" y2="1.2446" width="0.1524" layer="51"/>
+<wire x1="1.6002" y1="1.2446" x2="-1.6002" y2="1.2446" width="0.1524" layer="51"/>
+<wire x1="-1.6002" y1="1.2446" x2="-1.6002" y2="-1.2446" width="0.1524" layer="51"/>
+<text x="-4.445" y="1.778" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.7658" y="-3.81" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="INDC3225X140N">
+<smd name="1" x="-1.1684" y="0" dx="1.2446" dy="1.7018" layer="1"/>
+<smd name="2" x="1.1684" y="0" dx="1.2446" dy="1.7018" layer="1"/>
+<wire x1="-0.2286" y1="-0.8382" x2="0.2286" y2="-0.8382" width="0.1524" layer="21"/>
+<wire x1="0.2286" y1="0.8382" x2="-0.2286" y2="0.8382" width="0.1524" layer="21"/>
+<wire x1="-1.143" y1="-0.8382" x2="1.143" y2="-0.8382" width="0.1524" layer="51"/>
+<wire x1="1.143" y1="-0.8382" x2="1.143" y2="0.8382" width="0.1524" layer="51"/>
+<wire x1="1.143" y1="0.8382" x2="-1.143" y2="0.8382" width="0.1524" layer="51"/>
+<wire x1="-1.143" y1="0.8382" x2="-1.143" y2="-0.8382" width="0.1524" layer="51"/>
+<text x="-4.5974" y="1.1938" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.6134" y="-3.2766" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="INDC4532X340N">
+<smd name="1" x="-2.2606" y="0" dx="1.2954" dy="3.6068" layer="1"/>
+<smd name="2" x="2.2606" y="0" dx="1.2954" dy="3.6068" layer="1"/>
+<wire x1="-1.27" y1="-1.6002" x2="1.27" y2="-1.6002" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="1.6002" x2="-1.27" y2="1.6002" width="0.1524" layer="21"/>
+<wire x1="-2.2606" y1="-1.6002" x2="2.2606" y2="-1.6002" width="0.1524" layer="51"/>
+<wire x1="2.2606" y1="-1.6002" x2="2.2606" y2="1.6002" width="0.1524" layer="51"/>
+<wire x1="2.2606" y1="1.6002" x2="-2.2606" y2="1.6002" width="0.1524" layer="51"/>
+<wire x1="-2.2606" y1="1.6002" x2="-2.2606" y2="-1.6002" width="0.1524" layer="51"/>
+<text x="-4.699" y="2.3622" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.715" y="-4.2164" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="INDC4532X320N">
+<smd name="1" x="-2.2606" y="0" dx="1.2954" dy="3.6068" layer="1"/>
+<smd name="2" x="2.2606" y="0" dx="1.2954" dy="3.6068" layer="1"/>
+<wire x1="-1.27" y1="-1.6002" x2="1.27" y2="-1.6002" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="1.6002" x2="-1.27" y2="1.6002" width="0.1524" layer="21"/>
+<wire x1="-2.2606" y1="-1.6002" x2="2.2606" y2="-1.6002" width="0.1524" layer="51"/>
+<wire x1="2.2606" y1="-1.6002" x2="2.2606" y2="1.6002" width="0.1524" layer="51"/>
+<wire x1="2.2606" y1="1.6002" x2="-2.2606" y2="1.6002" width="0.1524" layer="51"/>
+<wire x1="-2.2606" y1="1.6002" x2="-2.2606" y2="-1.6002" width="0.1524" layer="51"/>
+<text x="-4.699" y="1.9812" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.6896" y="-3.9878" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="INDC5650X530N">
+<smd name="1" x="-2.9972" y="0" dx="2.0066" dy="4.4958" layer="1"/>
+<smd name="2" x="2.9972" y="0" dx="2.0066" dy="4.4958" layer="1"/>
+<wire x1="-1.778" y1="-2.4892" x2="1.778" y2="-2.4892" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="2.4892" x2="-1.778" y2="2.4892" width="0.1524" layer="21"/>
+<wire x1="-2.794" y1="-2.4892" x2="2.794" y2="-2.4892" width="0.1524" layer="51"/>
+<wire x1="2.794" y1="-2.4892" x2="2.794" y2="2.4892" width="0.1524" layer="51"/>
+<wire x1="2.794" y1="2.4892" x2="-2.794" y2="2.4892" width="0.1524" layer="51"/>
+<wire x1="-2.794" y1="2.4892" x2="-2.794" y2="-2.4892" width="0.1524" layer="51"/>
+<text x="-4.699" y="3.048" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.8674" y="-5.1054" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="INDC1608X90N">
+<smd name="1" x="-0.889" y="0" dx="0.7874" dy="0.889" layer="1"/>
+<smd name="2" x="0.889" y="0" dx="0.7874" dy="0.889" layer="1"/>
+<wire x1="-0.1778" y1="-0.4064" x2="0.1778" y2="-0.4064" width="0.1524" layer="21"/>
+<wire x1="0.1778" y1="0.4064" x2="-0.1778" y2="0.4064" width="0.1524" layer="21"/>
+<wire x1="-0.7874" y1="-0.4064" x2="0.7874" y2="-0.4064" width="0.1524" layer="51"/>
+<wire x1="0.7874" y1="-0.4064" x2="0.7874" y2="0.4064" width="0.1524" layer="51"/>
+<wire x1="0.7874" y1="0.4064" x2="-0.7874" y2="0.4064" width="0.1524" layer="51"/>
+<wire x1="-0.7874" y1="0.4064" x2="-0.7874" y2="-0.4064" width="0.1524" layer="51"/>
+<text x="-4.318" y="0.7874" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.6134" y="-2.9464" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="INDC1608X80N">
+<smd name="1" x="-0.889" y="0" dx="0.7874" dy="0.889" layer="1"/>
+<smd name="2" x="0.889" y="0" dx="0.7874" dy="0.889" layer="1"/>
+<wire x1="-0.1778" y1="-0.4064" x2="0.1778" y2="-0.4064" width="0.1524" layer="21"/>
+<wire x1="0.1778" y1="0.4064" x2="-0.1778" y2="0.4064" width="0.1524" layer="21"/>
+<wire x1="-0.7874" y1="-0.4064" x2="0.7874" y2="-0.4064" width="0.1524" layer="51"/>
+<wire x1="0.7874" y1="-0.4064" x2="0.7874" y2="0.4064" width="0.1524" layer="51"/>
+<wire x1="0.7874" y1="0.4064" x2="-0.7874" y2="0.4064" width="0.1524" layer="51"/>
+<wire x1="-0.7874" y1="0.4064" x2="-0.7874" y2="-0.4064" width="0.1524" layer="51"/>
+<text x="-4.5974" y="0.6858" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.588" y="-2.7178" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="INDC2013X140N">
+<smd name="1" x="-1.1684" y="0" dx="1.2954" dy="1.7018" layer="1"/>
+<smd name="2" x="1.1684" y="0" dx="1.2954" dy="1.7018" layer="1"/>
+<wire x1="-0.1778" y1="-0.8636" x2="0.1778" y2="-0.8636" width="0.1524" layer="21"/>
+<wire x1="0.1778" y1="0.8636" x2="-0.1778" y2="0.8636" width="0.1524" layer="21"/>
+<wire x1="-1.1684" y1="-0.8636" x2="1.1684" y2="-0.8636" width="0.1524" layer="51"/>
+<wire x1="1.1684" y1="-0.8636" x2="1.1684" y2="0.8636" width="0.1524" layer="51"/>
+<wire x1="1.1684" y1="0.8636" x2="-1.1684" y2="0.8636" width="0.1524" layer="51"/>
+<wire x1="-1.1684" y1="0.8636" x2="-1.1684" y2="-0.8636" width="0.1524" layer="51"/>
+<text x="-4.826" y="1.3716" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.9182" y="-3.4544" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="CAPH">
+<pin name="C2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="C1" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<wire x1="3.4798" y1="-1.905" x2="3.4798" y2="0" width="0.2032" layer="94"/>
+<wire x1="3.4798" y1="0" x2="3.4798" y2="1.905" width="0.2032" layer="94"/>
+<wire x1="4.1148" y1="-1.905" x2="4.1148" y2="0" width="0.2032" layer="94"/>
+<wire x1="4.1148" y1="0" x2="4.1148" y2="1.905" width="0.2032" layer="94"/>
+<wire x1="4.1148" y1="0" x2="5.08" y2="0" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.4798" y2="0" width="0.2032" layer="94"/>
+<text x="-5.6642" y="-9.3472" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-0.9144" y="2.7686" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CAPV">
+<pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="1" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<wire x1="-1.905" y1="-3.4798" x2="0" y2="-3.4798" width="0.2032" layer="94"/>
+<wire x1="0" y1="-3.4798" x2="1.905" y2="-3.4798" width="0.2032" layer="94"/>
+<wire x1="-1.905" y1="-4.1148" x2="0" y2="-4.1148" width="0.2032" layer="94"/>
+<wire x1="0" y1="-4.1148" x2="1.905" y2="-4.1148" width="0.2032" layer="94"/>
+<wire x1="0" y1="-4.1148" x2="0" y2="-5.08" width="0.2032" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-3.4798" width="0.2032" layer="94"/>
+<text x="2.54" y="-10.6172" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="2.54" y="-3.5814" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="B57221V2103J60">
+<pin name="1" x="-17.78" y="-2.54" length="middle" direction="pas"/>
+<pin name="2" x="17.78" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<wire x1="-12.7" y1="2.54" x2="-12.7" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="12.7" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="2.54" x2="-12.7" y2="2.54" width="0.4064" layer="94"/>
+<text x="-5.3848" y="3.2512" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-4.1148" y="-9.9568" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+</symbol>
+<symbol name="B57311V2221J60">
+<pin name="1" x="-17.78" y="-2.54" length="middle" direction="pas"/>
+<pin name="2" x="17.78" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<wire x1="-12.7" y1="2.54" x2="-12.7" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="12.7" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="2.54" x2="-12.7" y2="2.54" width="0.4064" layer="94"/>
+<text x="-5.3594" y="3.4544" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-4.5974" y="-10.4902" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+</symbol>
+<symbol name="IND">
+<pin name="1" x="-17.78" y="-2.54" length="middle" direction="pas"/>
+<pin name="2" x="17.78" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<wire x1="-12.7" y1="2.54" x2="-12.7" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="12.7" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="2.54" x2="-12.7" y2="2.54" width="0.4064" layer="94"/>
+<text x="-5.3594" y="3.4544" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-4.5974" y="-10.4902" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+</symbol>
+<symbol name="B57421V2102J62">
+<pin name="1" x="-17.78" y="-2.54" length="middle" direction="pas"/>
+<pin name="2" x="17.78" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<wire x1="-12.7" y1="2.54" x2="-12.7" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="12.7" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="2.54" x2="-12.7" y2="2.54" width="0.4064" layer="94"/>
+<text x="-5.3848" y="3.2512" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-4.1148" y="-9.9568" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+</symbol>
+<symbol name="B57421V2103J62">
+<pin name="1" x="-17.78" y="-2.54" length="middle" direction="pas"/>
+<pin name="2" x="17.78" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<wire x1="-12.7" y1="2.54" x2="-12.7" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="12.7" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="2.54" x2="-12.7" y2="2.54" width="0.4064" layer="94"/>
+<text x="-5.3848" y="3.2512" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-4.1148" y="-9.9568" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+</symbol>
+<symbol name="B57421V2471J62">
+<pin name="1" x="-17.78" y="-2.54" length="middle" direction="pas"/>
+<pin name="2" x="17.78" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<wire x1="-12.7" y1="2.54" x2="-12.7" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="12.7" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="2.54" x2="-12.7" y2="2.54" width="0.4064" layer="94"/>
+<text x="-5.3848" y="3.2512" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-4.1148" y="-9.9568" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+</symbol>
+<symbol name="B57620C221J62">
+<pin name="1" x="-17.78" y="-2.54" length="middle" direction="pas"/>
+<pin name="2" x="17.78" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<wire x1="-12.7" y1="2.54" x2="-12.7" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="12.7" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="2.54" x2="-12.7" y2="2.54" width="0.4064" layer="94"/>
+<text x="-5.3848" y="3.2512" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-4.1148" y="-9.9568" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+</symbol>
+<symbol name="B57620C471J62">
+<pin name="1" x="-17.78" y="-2.54" length="middle" direction="pas"/>
+<pin name="2" x="17.78" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<wire x1="-12.7" y1="2.54" x2="-12.7" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="12.7" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="2.54" x2="-12.7" y2="2.54" width="0.4064" layer="94"/>
+<text x="-5.3848" y="3.2512" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-4.1148" y="-9.9568" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+</symbol>
+<symbol name="B57621C472J62">
+<pin name="1" x="-17.78" y="-2.54" length="middle" direction="pas"/>
+<pin name="2" x="17.78" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<wire x1="-12.7" y1="2.54" x2="-12.7" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="12.7" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="2.54" x2="-12.7" y2="2.54" width="0.4064" layer="94"/>
+<text x="-5.3594" y="3.4544" size="2.0828" layer="95" ratio="10" rot="SR0">RefDes</text>
+<text x="-4.5974" y="-10.4902" size="2.0828" layer="96" ratio="10" rot="SR0">Type</text>
+</symbol>
+<symbol name="B82442A1475K">
+<pin name="1" x="-17.78" y="-2.54" length="middle" direction="pas"/>
+<pin name="2" x="17.78" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<wire x1="-12.7" y1="2.54" x2="-12.7" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="12.7" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="2.54" x2="-12.7" y2="2.54" width="0.4064" layer="94"/>
+<text x="-5.3594" y="6.5786" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-3.7846" y="-10.0584" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="B37931K5103K60" prefix="C">
+<description>CAPACITOR, 0603</description>
+<gates>
+<gate name="A" symbol="CAPH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="CAPC1608X85N">
+<connects>
+<connect gate="A" pin="C1" pad="1"/>
+<connect gate="A" pin="C2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B37931K5103K60" constant="no"/>
+<attribute name="OC_FARNELL" value="753622" constant="no"/>
+<attribute name="OC_NEWARK" value="36K3729" constant="no"/>
+<attribute name="SUPPLIER" value="Epcos" constant="no"/>
+<attribute name="TOLERANCE" value="± 10 %" constant="no"/>
+<attribute name="VALUE" value="10nF" constant="no"/>
+<attribute name="VOLTAGERATING" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B37940K5100J60" prefix="C">
+<description>CAPACITOR, 0805</description>
+<gates>
+<gate name="A" symbol="CAPH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="CAPC2013X70N">
+<connects>
+<connect gate="A" pin="C1" pad="1"/>
+<connect gate="A" pin="C2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B37940K5100J60" constant="no"/>
+<attribute name="OC_FARNELL" value="9753559" constant="no"/>
+<attribute name="OC_NEWARK" value="-" constant="no"/>
+<attribute name="SUPPLIER" value="Epcos" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="10pF" constant="no"/>
+<attribute name="VOLTAGERATING" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B37940K5330J60" prefix="C">
+<description>CAPACITOR, 0805, 33PF, 50V</description>
+<gates>
+<gate name="A" symbol="CAPH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="CAPC2013X70N">
+<connects>
+<connect gate="A" pin="C1" pad="1"/>
+<connect gate="A" pin="C2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B37940K5330J60" constant="no"/>
+<attribute name="OC_FARNELL" value="9753575" constant="no"/>
+<attribute name="OC_NEWARK" value="-" constant="no"/>
+<attribute name="SUPPLIER" value="Epcos" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="33pF" constant="no"/>
+<attribute name="VOLTAGERATING" value="50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B57221V2103J60" prefix="L">
+<description>THERMISTOR NTC 10K OHM 5%</description>
+<gates>
+<gate name="A" symbol="B57221V2103J60" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="THERM_B57221V2103J60">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B57221V2103J60" constant="no"/>
+<attribute name="OC_FARNELL" value="1299910" constant="no"/>
+<attribute name="OC_NEWARK" value="43J3472" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="10K OHM" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B57311V2221J60" prefix="L">
+<description>THERMISTOR NTC 220 OHM 5% 0603</description>
+<gates>
+<gate name="A" symbol="B57311V2221J60" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="THERM_B57311V2221J60">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B57311V2221J60" constant="no"/>
+<attribute name="OC_FARNELL" value="1299912" constant="no"/>
+<attribute name="OC_NEWARK" value="31M4778" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="± 5%" constant="no"/>
+<attribute name="VALUE" value="220 OHM" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B57321V2103J60" prefix="L">
+<description>THERMISTOR NTC 10K OHM 5%</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="THERM_B57321V2103J60">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B57321V2103J60" constant="no"/>
+<attribute name="OC_FARNELL" value="1299914" constant="no"/>
+<attribute name="OC_NEWARK" value="43J3504" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="± 5 %" constant="no"/>
+<attribute name="VALUE" value="10K OHM" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B57421V2102J62" prefix="L">
+<description>THERMISTOR NTC 1.0K OHM 5%</description>
+<gates>
+<gate name="A" symbol="B57421V2102J62" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="THERM_B57421V2102J62">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B57421V2102J62" constant="no"/>
+<attribute name="OC_FARNELL" value="1299919" constant="no"/>
+<attribute name="OC_NEWARK" value="31M4783" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="1.0K OHM" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B57421V2103J62" prefix="L">
+<description>THERMISTOR NTC 10K OHM 5%</description>
+<gates>
+<gate name="A" symbol="B57421V2103J62" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="THERM_B57421V2103J62">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B57421V2103J62" constant="no"/>
+<attribute name="OC_FARNELL" value="1712519" constant="no"/>
+<attribute name="OC_NEWARK" value="43J3525" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="10K OHM" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B57421V2471J62" prefix="L">
+<description>THERMISTOR NTC 470 OHM 5% 0805</description>
+<gates>
+<gate name="A" symbol="B57421V2471J62" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="THERM_B57421V2471J62">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B57421V2471J62" constant="no"/>
+<attribute name="OC_FARNELL" value="1299917" constant="no"/>
+<attribute name="OC_NEWARK" value="31M4784" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="470 Ohm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B57620C221J62" prefix="L">
+<description>THERMISTOR NTC 220 OHM 5% 0805</description>
+<gates>
+<gate name="A" symbol="B57620C221J62" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="THERM_B57620C221J62">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B57620C221J62" constant="no"/>
+<attribute name="OC_FARNELL" value="679460" constant="no"/>
+<attribute name="OC_NEWARK" value="46WX1264" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="220 Ohm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B57620C471J62" prefix="L">
+<description>THERMISTOR NTC 470 OHM 5% 0805</description>
+<gates>
+<gate name="A" symbol="B57620C471J62" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="THERM_B57620C471J62">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B57620C471J62" constant="no"/>
+<attribute name="OC_FARNELL" value="679471" constant="no"/>
+<attribute name="OC_NEWARK" value="46WX1265" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="470 Ohm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B57621C472J62" prefix="L">
+<description>THERMISTOR NTC 4.7K OHM 5% 1206</description>
+<gates>
+<gate name="A" symbol="B57621C472J62" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="THERM_B57621C472J62">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B57621C472J62" constant="no"/>
+<attribute name="OC_FARNELL" value="679537" constant="no"/>
+<attribute name="OC_NEWARK" value="46WX1270" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="± 5%" constant="no"/>
+<attribute name="VALUE" value="4.7K OHM" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422A1102K100" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X210N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422A1102K100" constant="no"/>
+<attribute name="OC_FARNELL" value="1644335" constant="no"/>
+<attribute name="OC_NEWARK" value="46P6042" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="1uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422A1103K100" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X210N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422A1103K100" constant="no"/>
+<attribute name="OC_FARNELL" value="1644337" constant="no"/>
+<attribute name="OC_NEWARK" value="46P6043" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="10uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422A1104K100" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X210N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422A1104K100" constant="no"/>
+<attribute name="OC_FARNELL" value="1644338" constant="no"/>
+<attribute name="OC_NEWARK" value="22C0349" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="100uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422A1152K100" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X210N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422A1152K100" constant="no"/>
+<attribute name="OC_FARNELL" value="1644339" constant="no"/>
+<attribute name="OC_NEWARK" value="59T9560" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="1.5uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422A1153K100" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X210N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422A1153K100" constant="no"/>
+<attribute name="OC_FARNELL" value="1644340" constant="no"/>
+<attribute name="OC_NEWARK" value="-" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="15uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422A1222K100" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X210N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422A1222K100" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="22C0363" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="2.2uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422A1223K100" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X210N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422A1223K100" constant="no"/>
+<attribute name="OC_FARNELL" value="1644342" constant="no"/>
+<attribute name="OC_NEWARK" value="22C0365" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="22uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422A1332K100" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X210N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422A1332K100" constant="no"/>
+<attribute name="OC_FARNELL" value="1644343" constant="no"/>
+<attribute name="OC_NEWARK" value="22C0371" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="3.3uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422A1333K100" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X210N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422A1333K100" constant="no"/>
+<attribute name="OC_FARNELL" value="1644344" constant="no"/>
+<attribute name="OC_NEWARK" value="46P6044" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="33uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422A1472K100" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X210N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422A1472K100" constant="no"/>
+<attribute name="OC_FARNELL" value="1644345" constant="no"/>
+<attribute name="OC_NEWARK" value="22C0379" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="4.7uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422A1473K100" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X210N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422A1473K100" constant="no"/>
+<attribute name="OC_FARNELL" value="1644346" constant="no"/>
+<attribute name="OC_NEWARK" value="22C0381" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="47uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422A1682K100" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X210N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422A1682K100" constant="no"/>
+<attribute name="OC_FARNELL" value="1644347" constant="no"/>
+<attribute name="OC_NEWARK" value="59T9561" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="6.8uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422A1683K100" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X210N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422A1683K100" constant="no"/>
+<attribute name="OC_FARNELL" value="1644349" constant="no"/>
+<attribute name="OC_NEWARK" value="-" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="68uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422A3100K100" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X210N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422A3100K100" constant="no"/>
+<attribute name="OC_FARNELL" value="1644351" constant="no"/>
+<attribute name="OC_NEWARK" value="-" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="0.01uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422A3101K100" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X210N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422A3101K100" constant="no"/>
+<attribute name="OC_FARNELL" value="1644352" constant="no"/>
+<attribute name="OC_NEWARK" value="22C0396" constant="no"/>
+<attribute name="SUPPLIER" value="Epcos" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="0.1uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422A3150K100" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X210N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422A3150K100" constant="no"/>
+<attribute name="OC_FARNELL" value="1644353" constant="no"/>
+<attribute name="OC_NEWARK" value="-" constant="no"/>
+<attribute name="SUPPLIER" value="Epcos" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="0.015uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422A3151K100" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X210N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422A3151K100" constant="no"/>
+<attribute name="OC_FARNELL" value="1644354" constant="no"/>
+<attribute name="OC_NEWARK" value="-" constant="no"/>
+<attribute name="SUPPLIER" value="Epcos" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="0.15uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422A3220K100" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X210N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422A3220K100" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="59T9563" constant="no"/>
+<attribute name="SUPPLIER" value="Epcos" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="0.022uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422A3221K100" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X210N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422A3221K100" constant="no"/>
+<attribute name="OC_FARNELL" value="1644356" constant="no"/>
+<attribute name="OC_NEWARK" value="59T9564" constant="no"/>
+<attribute name="SUPPLIER" value="Epcos" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="0.22uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422A3331K100" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X210N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422A3331K100" constant="no"/>
+<attribute name="OC_FARNELL" value="1644358" constant="no"/>
+<attribute name="OC_NEWARK" value="59T9565" constant="no"/>
+<attribute name="SUPPLIER" value="Epcos" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="0.33uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422A3471K100" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X210N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422A3471K100" constant="no"/>
+<attribute name="OC_FARNELL" value="1644360" constant="no"/>
+<attribute name="OC_NEWARK" value="22C0427" constant="no"/>
+<attribute name="SUPPLIER" value="Epcos" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="0.47uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422A3680K100" prefix="L">
+<description>INDUCTOR .068UH 480MA 1210 10%</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X210N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422A3680K100" constant="no"/>
+<attribute name="OC_FARNELL" value="1644362" constant="no"/>
+<attribute name="OC_NEWARK" value="-" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="0..068UH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422H1102K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X220N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422H1102K" constant="no"/>
+<attribute name="OC_FARNELL" value="1299970" constant="no"/>
+<attribute name="OC_NEWARK" value="69K9623" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="1µH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422H1103K" prefix="L">
+<description>SMT Inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X220N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422H1103K" constant="no"/>
+<attribute name="OC_FARNELL" value="1299975" constant="no"/>
+<attribute name="OC_NEWARK" value="69K9625" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="10µH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422H1104K" prefix="L">
+<description>SMT Inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X220N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422H1104K" constant="no"/>
+<attribute name="OC_FARNELL" value="1299982" constant="no"/>
+<attribute name="OC_NEWARK" value="69K9627" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="100µH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422H1222K" prefix="L">
+<description>SMT Inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X220N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422H1222K" constant="no"/>
+<attribute name="OC_FARNELL" value="1299971" constant="no"/>
+<attribute name="OC_NEWARK" value="69K9633" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="2.2µH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422H1223K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2532X220N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422H1223K" constant="no"/>
+<attribute name="OC_FARNELL" value="1299976" constant="no"/>
+<attribute name="OC_NEWARK" value="69K9635" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="22µH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422H1224K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X220N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422H1224K" constant="no"/>
+<attribute name="OC_FARNELL" value="1823787" constant="no"/>
+<attribute name="OC_NEWARK" value="69K9637" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="220µH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422H1332K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X220N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422H1332K" constant="no"/>
+<attribute name="OC_FARNELL" value="1299972" constant="no"/>
+<attribute name="OC_NEWARK" value="25M8337" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="3.3µH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422H1333K" prefix="L">
+<description>INDUCTOR 33UH 280MA 1210 10%</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X240N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422H1333K" constant="no"/>
+<attribute name="OC_FARNELL" value="1299977" constant="no"/>
+<attribute name="OC_NEWARK" value="25M8338" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="33 µH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422H1334K" prefix="L">
+<description>INDUCTOR 330UH 90MA 1210 10%</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X240N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422H1334K" constant="no"/>
+<attribute name="OC_FARNELL" value="1299983" constant="no"/>
+<attribute name="OC_NEWARK" value="25M8339" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="330 µH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422H1472K" prefix="L">
+<description>INDUCTOR 4.7UH 700MA 1210 10%</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X240N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422H1472K" constant="no"/>
+<attribute name="OC_FARNELL" value="1299974" constant="no"/>
+<attribute name="OC_NEWARK" value="69K9647" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="+/- 5%" constant="no"/>
+<attribute name="VALUE" value="4.7 µH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422H1473K" prefix="L">
+<description>INDUCTOR 47UH 230MA 1210 10%</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X240N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422H1473K" constant="no"/>
+<attribute name="OC_FARNELL" value="1299978" constant="no"/>
+<attribute name="OC_NEWARK" value="69K9649" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="+/- 5%" constant="no"/>
+<attribute name="VALUE" value="47 µH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422H1474K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X220N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422H1474K" constant="no"/>
+<attribute name="OC_FARNELL" value="1817226" constant="no"/>
+<attribute name="OC_NEWARK" value="69K9651" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="470µH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422H1683K" prefix="L">
+<description>INDUCTOR 68UH 180MA 1210 10%</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X240N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422H1683K" constant="no"/>
+<attribute name="OC_FARNELL" value="1299981" constant="no"/>
+<attribute name="OC_NEWARK" value="25M8342" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="+/- 5%" constant="no"/>
+<attribute name="VALUE" value="68 µH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422H1684K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2317X140N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82498F3680J" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="46P6177" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="68µH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422T1102K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X210N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422T1102K" constant="no"/>
+<attribute name="OC_FARNELL" value="3877190" constant="no"/>
+<attribute name="OC_NEWARK" value="22C0441" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="1uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422T1103K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X210N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422T1103K" constant="no"/>
+<attribute name="OC_FARNELL" value="3877231" constant="no"/>
+<attribute name="OC_NEWARK" value="22C0442" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="10uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422T1104K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X210N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422T1104K" constant="no"/>
+<attribute name="OC_FARNELL" value="3877280" constant="no"/>
+<attribute name="OC_NEWARK" value="13J5596" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="100uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422T1222K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X210N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422T1222K" constant="no"/>
+<attribute name="OC_FARNELL" value="3877206" constant="no"/>
+<attribute name="OC_NEWARK" value="22C0454" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="2.2uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422T1223K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X210N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422T1223K" constant="no"/>
+<attribute name="OC_FARNELL" value="3877243" constant="no"/>
+<attribute name="OC_NEWARK" value="13J5603" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="22uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422T1332K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X210N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422T1332K" constant="no"/>
+<attribute name="OC_FARNELL" value="3877218" constant="no"/>
+<attribute name="OC_NEWARK" value="13J5607" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="3.3µH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422T1334K" prefix="L">
+<description>SMT Inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X230N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422T1334K" constant="no"/>
+<attribute name="OC_FARNELL" value="3877346" constant="no"/>
+<attribute name="OC_NEWARK" value="13J5609" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="± 10 %" constant="no"/>
+<attribute name="VALUE" value="330uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422T1472K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X210N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422T1472K" constant="no"/>
+<attribute name="OC_FARNELL" value="3877220" constant="no"/>
+<attribute name="OC_NEWARK" value="13J5611" constant="no"/>
+<attribute name="SUPPLIER" value="Epcos" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="4.7uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422T1473K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X210N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422T1473K" constant="no"/>
+<attribute name="OC_FARNELL" value="3877267" constant="no"/>
+<attribute name="OC_NEWARK" value="13J5612" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="47uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422T1683K" prefix="L">
+<description>INDUCTOR 68UH 60MA 1210 10%</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X240N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422T1683K" constant="no"/>
+<attribute name="OC_FARNELL" value="3877279" constant="no"/>
+<attribute name="OC_NEWARK" value="-" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="68 µH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422T3100K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X140N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422T3100K" constant="no"/>
+<attribute name="OC_FARNELL" value="4774498" constant="no"/>
+<attribute name="OC_NEWARK" value="22C0477" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="10nh" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422T3101K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X140N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422T3101K" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="22C0478" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="0.010mh" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422T3220K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X140N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422T3220K" constant="no"/>
+<attribute name="OC_FARNELL" value="4774516" constant="no"/>
+<attribute name="OC_NEWARK" value="22C0482" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="0.022mH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82422T3470K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC3225X140N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422T3470K" constant="no"/>
+<attribute name="OC_FARNELL" value="4774528" constant="no"/>
+<attribute name="OC_NEWARK" value="22C0486" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="0.047mH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82432T1102K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC4532X340N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82432T1102K" constant="no"/>
+<attribute name="OC_FARNELL" value="8808406" constant="no"/>
+<attribute name="OC_NEWARK" value="38C7000" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="1uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82432T1103K" prefix="L">
+<description>CHIP INDUCTOR</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC4532X320N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82432T1103K" constant="no"/>
+<attribute name="OC_FARNELL" value="8808449" constant="no"/>
+<attribute name="OC_NEWARK" value="38C7001" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="10mh" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82432T1104K" prefix="L">
+<description>CHIP INDUCTOR</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC4532X320N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82432T1104K" constant="no"/>
+<attribute name="OC_FARNELL" value="8808503" constant="no"/>
+<attribute name="OC_NEWARK" value="38C7002" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="100mh" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82432T1105K" prefix="L">
+<description>CHIP INDUCTOR</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC4532X320N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82432T1105K" constant="no"/>
+<attribute name="OC_FARNELL" value="8808570" constant="no"/>
+<attribute name="OC_NEWARK" value="38C7003" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="1000mh" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82432T1153K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC4532X320N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82432T1153K" constant="no"/>
+<attribute name="OC_FARNELL" value="8808457" constant="no"/>
+<attribute name="OC_NEWARK" value="06J0725" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="15mh" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82432T1154K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC4532X340N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82432T1154K" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="84H0770" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="± 10 %" constant="no"/>
+<attribute name="VALUE" value="150uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82432T1222K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC4532X340N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82432T1222K" constant="no"/>
+<attribute name="OC_FARNELL" value="1712304" constant="no"/>
+<attribute name="OC_NEWARK" value="46P6050" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="± 10 %" constant="no"/>
+<attribute name="VALUE" value="2.2uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82432T1223K" prefix="L">
+<description>CHIP INDUCTOR</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC4532X320N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82432T1223K" constant="no"/>
+<attribute name="OC_FARNELL" value="8808465" constant="no"/>
+<attribute name="OC_NEWARK" value="38C7004" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="22mh" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82432T1224K" prefix="L">
+<description>CHIP INDUCTOR</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC4532X320N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82432T1224K" constant="no"/>
+<attribute name="OC_FARNELL" value="8808520" constant="no"/>
+<attribute name="OC_NEWARK" value="06J0730" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="220mh" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82432T1332K" prefix="L">
+<description>CHIP INDUCTOR</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC4532X320N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82432T1332K" constant="no"/>
+<attribute name="OC_FARNELL" value="8808422" constant="no"/>
+<attribute name="OC_NEWARK" value="06J0733" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="100mh" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82432T1333K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC4532X340N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82432T1333K" constant="no"/>
+<attribute name="OC_FARNELL" value="8808473" constant="no"/>
+<attribute name="OC_NEWARK" value="06J0734" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="± 10 %" constant="no"/>
+<attribute name="VALUE" value="33uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82432T1334K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC4532X340N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82432T1334K" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="38C7005" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="± 10 %" constant="no"/>
+<attribute name="VALUE" value="330uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82432T1472K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC4532X340N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82432T1472K" constant="no"/>
+<attribute name="OC_FARNELL" value="8808430" constant="no"/>
+<attribute name="OC_NEWARK" value="38C7006" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="± 10 %" constant="no"/>
+<attribute name="VALUE" value="4.7uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82432T1473K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC4532X340N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82432T1473K" constant="no"/>
+<attribute name="OC_FARNELL" value="8808481" constant="no"/>
+<attribute name="OC_NEWARK" value="38C7007" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="± 10 %" constant="no"/>
+<attribute name="VALUE" value="47uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82432T1474K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC4532X340N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82432T1474K" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="38C7008" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="± 10 %" constant="no"/>
+<attribute name="VALUE" value="470uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82432T1563K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC4532X320N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82422T3100K" constant="no"/>
+<attribute name="OC_FARNELL" value="4774498" constant="no"/>
+<attribute name="OC_NEWARK" value="22C0477" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="0.010mh" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82432T1682K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC4532X340N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82432T1682K" constant="no"/>
+<attribute name="OC_FARNELL" value="1712306" constant="no"/>
+<attribute name="OC_NEWARK" value="46P6051" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="± 10 %" constant="no"/>
+<attribute name="VALUE" value="6.8uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82442A1102K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC5650X530N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82442A1102K" constant="no"/>
+<attribute name="OC_FARNELL" value="870092" constant="no"/>
+<attribute name="OC_NEWARK" value="22C0527" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="1uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82442A1103K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC5650X530N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82442A1103K" constant="no"/>
+<attribute name="OC_FARNELL" value="870110" constant="no"/>
+<attribute name="OC_NEWARK" value="22C0528" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="10uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82442A1104K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC5650X530N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82442A1104K" constant="no"/>
+<attribute name="OC_FARNELL" value="870134" constant="no"/>
+<attribute name="OC_NEWARK" value="46P6063" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="100uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82442A1105K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC5650X530N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82442A1105K" constant="no"/>
+<attribute name="OC_FARNELL" value="158847" constant="no"/>
+<attribute name="OC_NEWARK" value="22C0530" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="1000uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82442A1106K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC5650X530N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82442A1106K" constant="no"/>
+<attribute name="OC_FARNELL" value="158884" constant="no"/>
+<attribute name="OC_NEWARK" value="22C0531" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="10000uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82442A1222K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC5650X530N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82442A1222K" constant="no"/>
+<attribute name="OC_FARNELL" value="158720" constant="no"/>
+<attribute name="OC_NEWARK" value="59T9568" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="2.2uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82442A1223K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC5650X530N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82442A1223K" constant="no"/>
+<attribute name="OC_FARNELL" value="158768" constant="no"/>
+<attribute name="OC_NEWARK" value="46P6064" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="22uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82442A1224K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC5650X530N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82442A1224K" constant="no"/>
+<attribute name="OC_FARNELL" value="158800" constant="no"/>
+<attribute name="OC_NEWARK" value="92C7950" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="220µH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82442A1225K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC5650X530N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82442A1225K" constant="no"/>
+<attribute name="OC_FARNELL" value="158860" constant="no"/>
+<attribute name="OC_NEWARK" value="18J2521" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="2200uH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82442A1472K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC5650X530N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82442A1472K" constant="no"/>
+<attribute name="OC_FARNELL" value="158732" constant="no"/>
+<attribute name="OC_NEWARK" value="46P6066" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="4.7µH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82442A1473K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC5650X530N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82442A1473K" constant="no"/>
+<attribute name="OC_FARNELL" value="158770" constant="no"/>
+<attribute name="OC_NEWARK" value="22C0561" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="47µH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82442A1474K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC5650X530N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82442A1474K" constant="no"/>
+<attribute name="OC_FARNELL" value="158823" constant="no"/>
+<attribute name="OC_NEWARK" value="18J2524" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="470µH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82442A1475K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="B82442A1475K" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC5650X530N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82442A1475K" constant="no"/>
+<attribute name="OC_FARNELL" value="158872" constant="no"/>
+<attribute name="OC_NEWARK" value="59T9569" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="4700µH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82442H1102K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC5650X530N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82442H1102K" constant="no"/>
+<attribute name="OC_FARNELL" value="3877360" constant="no"/>
+<attribute name="OC_NEWARK" value="30C8192" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="1µH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82442H1103K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC5650X530N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82442H1103K" constant="no"/>
+<attribute name="OC_FARNELL" value="3877413" constant="no"/>
+<attribute name="OC_NEWARK" value="46P6067" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="10µH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82442H1104K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC5650X530N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82442H1104K" constant="no"/>
+<attribute name="OC_FARNELL" value="158896" constant="no"/>
+<attribute name="OC_NEWARK" value="30C8194" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="1000mh" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82442H1105K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC5650X530N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82442H1105K" constant="no"/>
+<attribute name="OC_FARNELL" value="158914" constant="no"/>
+<attribute name="OC_NEWARK" value="99M2048" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="1000mh" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82442H1106K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC5650X530N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82442H1106K" constant="no"/>
+<attribute name="OC_FARNELL" value="158938" constant="no"/>
+<attribute name="OC_NEWARK" value="30C8196" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="10000mh" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82442H1222K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC5650X530N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82442H1222K" constant="no"/>
+<attribute name="OC_FARNELL" value="3877371" constant="no"/>
+<attribute name="OC_NEWARK" value="13J5635" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="2.2mh" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82442H1223K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC5650X530N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82442H1223K" constant="no"/>
+<attribute name="OC_FARNELL" value="3877437" constant="no"/>
+<attribute name="OC_NEWARK" value="13J5636" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="220mh" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82442H1224K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC5650X530N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82442H1224K" constant="no"/>
+<attribute name="OC_FARNELL" value="3877450" constant="no"/>
+<attribute name="OC_NEWARK" value="59T9570" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="220mh" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82442H1334K" prefix="L">
+<description>INDUCTOR 330UH 200MA 2220 10%</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC5650X530N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82442H1334K" constant="no"/>
+<attribute name="OC_FARNELL" value="158902" constant="no"/>
+<attribute name="OC_NEWARK" value="18J2530" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="330UH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82442H1472K" prefix="L">
+<description>INDUCTOR 4.7UH 1350MA 10%</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC5650X530N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82442H1472K" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="46P6068" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="VALUE" value="4.7UH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82442H1475K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC5650X530N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82442H1475K" constant="no"/>
+<attribute name="OC_FARNELL" value="3877474" constant="no"/>
+<attribute name="OC_NEWARK" value="13J5641" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="4700mh" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82496C3100J" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X90N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82496C3100J" constant="no"/>
+<attribute name="OC_FARNELL" value="3877024" constant="no"/>
+<attribute name="OC_NEWARK" value="38C7009" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="10nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82496C3101J" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X90N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82496C3101J" constant="no"/>
+<attribute name="OC_FARNELL" value="3877085" constant="no"/>
+<attribute name="OC_NEWARK" value="38C7010" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="100nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82496C3109A" prefix="L">
+<description>SMT Inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X90N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82496C3109A" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="38C7011" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±.3nH" constant="no"/>
+<attribute name="VALUE" value="1nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82496C3120J" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X90N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82496C3120J" constant="no"/>
+<attribute name="OC_FARNELL" value="1791516" constant="no"/>
+<attribute name="OC_NEWARK" value="06J0985" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="12nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82496C3129A" prefix="L">
+<description>INDUCTOR, 0603 CASE, 1.2NH</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X90N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82496C3129A" constant="no"/>
+<attribute name="OC_FARNELL" value="3876949" constant="no"/>
+<attribute name="OC_NEWARK" value="13J5671" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="± 0,3 nH" constant="no"/>
+<attribute name="VALUE" value="1.2 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82496C3150J" prefix="L">
+<description>INDUCTOR, 15NH, 420MA, ±5%,</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X90N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82496C3150J" constant="no"/>
+<attribute name="OC_FARNELL" value="3877036" constant="no"/>
+<attribute name="OC_NEWARK" value="53H9908" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="± 5 %" constant="no"/>
+<attribute name="VALUE" value="15 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82496C3151J" prefix="L">
+<description>INDUCTOR, 150NH, 130MA, ±5%</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X90N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82496C3151J" constant="no"/>
+<attribute name="OC_FARNELL" value="3877097" constant="no"/>
+<attribute name="OC_NEWARK" value="49H6502" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="± 5 %" constant="no"/>
+<attribute name="VALUE" value="150 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82496C3159A" prefix="L">
+<description>INDUCTOR, 0603 CASE, 1.5NH</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X90N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82496C3159A" constant="no"/>
+<attribute name="OC_FARNELL" value="3876950" constant="no"/>
+<attribute name="OC_NEWARK" value="13J5674" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="± 0,3 nH" constant="no"/>
+<attribute name="VALUE" value="1,5 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82496C3180J" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X80N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82496C3180J" constant="no"/>
+<attribute name="OC_FARNELL" value="1791587" constant="no"/>
+<attribute name="OC_NEWARK" value="95C1771" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="18mH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82496C3181J" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X90N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82496C3181J" constant="no"/>
+<attribute name="OC_FARNELL" value="3877103" constant="no"/>
+<attribute name="OC_NEWARK" value="59T9591" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="180nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82496C3189A" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X90N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82496C3189A" constant="no"/>
+<attribute name="OC_FARNELL" value="3876962" constant="no"/>
+<attribute name="OC_NEWARK" value="59T9592" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±0.3 nH" constant="no"/>
+<attribute name="VALUE" value="1.8nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82496C3220J" prefix="L">
+<description>INDUCTOR, 22NH, 380MA, 5%</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X90N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82496C3220J" constant="no"/>
+<attribute name="OC_FARNELL" value="3877048" constant="no"/>
+<attribute name="OC_NEWARK" value="38C7012" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="± 5 %" constant="no"/>
+<attribute name="VALUE" value="22 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82496C3221J" prefix="L">
+<description>INDUCTOR, 220NH, 110MA, ±5%</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X90N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82496C3221J" constant="no"/>
+<attribute name="OC_FARNELL" value="3877115" constant="no"/>
+<attribute name="OC_NEWARK" value="06J0998" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="± 5 %" constant="no"/>
+<attribute name="VALUE" value="220 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82496C3229A" prefix="L">
+<description>SMT Inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X90N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82496C3229A" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="38C7013" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±.3nH" constant="no"/>
+<attribute name="VALUE" value="2.2nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82496C3270J" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X90N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82496C3270J" constant="no"/>
+<attribute name="OC_FARNELL" value="1791517" constant="no"/>
+<attribute name="OC_NEWARK" value="06J1000" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="27nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82496C3279A" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X90N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82496C3279A" constant="no"/>
+<attribute name="OC_FARNELL" value="1791518" constant="no"/>
+<attribute name="OC_NEWARK" value="06J1001" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±0.3 nH" constant="no"/>
+<attribute name="VALUE" value="2.7nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82496C3330J" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X80N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82496C3330J" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="38C7014" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="33mH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82496C3339A" prefix="L">
+<description>INDUCTOR 3.3NH 1.1A 0.2NH</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X90N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82496C3339A" constant="no"/>
+<attribute name="OC_FARNELL" value="3876986" constant="no"/>
+<attribute name="OC_NEWARK" value="38C7015" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="± 0,3 nH" constant="no"/>
+<attribute name="VALUE" value="3,3 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82496C3399J" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X90N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82496C3399J" constant="no"/>
+<attribute name="OC_FARNELL" value="1791519" constant="no"/>
+<attribute name="OC_NEWARK" value="06J1005" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="3.9nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82496C3470J" prefix="L">
+<description>INDUCTOR, 47NH 270MA 5%</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X90N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82496C3470J" constant="no"/>
+<attribute name="OC_FARNELL" value="3877061" constant="no"/>
+<attribute name="OC_NEWARK" value="38C7016" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="± 5 %" constant="no"/>
+<attribute name="VALUE" value="47 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82496C3479J" prefix="L">
+<description>INDUCTOR, 4.7NH, 800MA 5%</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X90N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82496C3479J" constant="no"/>
+<attribute name="OC_FARNELL" value="3876998" constant="no"/>
+<attribute name="OC_NEWARK" value="38C7017" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="± 5 %" constant="no"/>
+<attribute name="VALUE" value="4.7 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82496C3569J" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X80N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82496C3569J" constant="no"/>
+<attribute name="OC_FARNELL" value="1791700" constant="no"/>
+<attribute name="OC_NEWARK" value="46P6166" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="5.6mH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82496C3680J" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X80N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82496C3680J" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="49H6508" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="68mH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82496C3689J" prefix="L">
+<description>SMT Inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X90N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82496C3689J" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="06J1015" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="6.8nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82496C3829J" prefix="L">
+<description>SMT Inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC1608X90N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82496C3829J" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="06J1019" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="8.2nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82498F1102J" prefix="L">
+<description>Inductor 0805</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2013X140N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82498F1102J" constant="no"/>
+<attribute name="OC_FARNELL" value="8808210" constant="no"/>
+<attribute name="OC_NEWARK" value="46P6171" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="1µH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82498F1222J" prefix="L">
+<description>INDUCTOR 2200NH 130MA 0805 5%</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2013X140N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82498F1222J" constant="no"/>
+<attribute name="OC_FARNELL" value="8808228" constant="no"/>
+<attribute name="OC_NEWARK" value="43J3932" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="2.2 µH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82498F1472J" prefix="L">
+<description>INDUCTOR 4700NH 90MA 0805 5%</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2013X140N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82498F1472J" constant="no"/>
+<attribute name="OC_FARNELL" value="8808244" constant="no"/>
+<attribute name="OC_NEWARK" value="46P6172" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="4.7 µH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82498F1682J" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2317X140N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82498F1682J" constant="no"/>
+<attribute name="OC_FARNELL" value="1791553" constant="no"/>
+<attribute name="OC_NEWARK" value="69K9713" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="6800µH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82498F3101J" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2317X140N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82498F3101J" constant="no"/>
+<attribute name="OC_FARNELL" value="8808163" constant="no"/>
+<attribute name="OC_NEWARK" value="06J1033" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="100nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82498F3120J" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2317X140N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82498F3120J" constant="no"/>
+<attribute name="OC_FARNELL" value="1799883" constant="no"/>
+<attribute name="OC_NEWARK" value="06J1035" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="12nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82498F3121J" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2317X140N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82498F3121J" constant="no"/>
+<attribute name="OC_FARNELL" value="1825882" constant="no"/>
+<attribute name="OC_NEWARK" value="06J1037" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="120nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82498F3150J" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2317X140N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82498F3150J" constant="no"/>
+<attribute name="OC_FARNELL" value="1712311" constant="no"/>
+<attribute name="OC_NEWARK" value="65H8426" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="15µH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82498F3151J" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2317X140N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82498F3151J" constant="no"/>
+<attribute name="OC_FARNELL" value="1824927" constant="no"/>
+<attribute name="OC_NEWARK" value="06J1040" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="150nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82498F3180J" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2317X140N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82498F3180J" constant="no"/>
+<attribute name="OC_FARNELL" value="1822884" constant="no"/>
+<attribute name="OC_NEWARK" value="65H8430" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="18µH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82498F3220J" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2317X140N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82498F3220J" constant="no"/>
+<attribute name="OC_FARNELL" value="8808120" constant="no"/>
+<attribute name="OC_NEWARK" value="65H8431" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="22nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82498F3221J" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2317X140N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82498F3221J" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="06J1046" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="220nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82498F3270J" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2317X140N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82498F3270J" constant="no"/>
+<attribute name="OC_FARNELL" value="1799884" constant="no"/>
+<attribute name="OC_NEWARK" value="06J1047" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="27nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82498F3279K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2317X140N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82498F3279K" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="46P6173" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="2.7nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82498F3330J" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2317X140N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82498F3330J" constant="no"/>
+<attribute name="OC_FARNELL" value="8808139" constant="no"/>
+<attribute name="OC_NEWARK" value="46P6174" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="33nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82498F3331J" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2317X140N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82498F3331J" constant="no"/>
+<attribute name="OC_FARNELL" value="8808180" constant="no"/>
+<attribute name="OC_NEWARK" value="46P6175" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="330nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82498F3390J" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2317X140N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82498F3390J" constant="no"/>
+<attribute name="OC_FARNELL" value="1842634" constant="no"/>
+<attribute name="OC_NEWARK" value="06J1056" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="39nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82498F3470J" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2317X140N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82498F3470J" constant="no"/>
+<attribute name="OC_FARNELL" value="8808147" constant="no"/>
+<attribute name="OC_NEWARK" value="06J1060" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="47nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82498F3471J" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2317X140N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82498F3471J" constant="no"/>
+<attribute name="OC_FARNELL" value="8808198" constant="no"/>
+<attribute name="OC_NEWARK" value="46P6176" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="470nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82498F3560J" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2317X140N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82498F3560J" constant="no"/>
+<attribute name="OC_FARNELL" value="1799886" constant="no"/>
+<attribute name="OC_NEWARK" value="06J1064" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="56nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82498F3569K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2317X140N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82498F3569K" constant="no"/>
+<attribute name="OC_FARNELL" value="1712301" constant="no"/>
+<attribute name="OC_NEWARK" value="06J1067" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="56nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82498F3680J" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2317X140N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82498F3680J" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="46P6177" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="68µH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82498F3681J" prefix="L">
+<description>INDUCTOR 680NH 190MA 0805 5%</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2013X140N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82498F3681J" constant="no"/>
+<attribute name="OC_FARNELL" value="8808201" constant="no"/>
+<attribute name="OC_NEWARK" value="-" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="680 nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82498F3689K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2317X140N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82498F3689K" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="46P6178" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="6.8µH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82498F3820J" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2317X140N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82498F3820J" constant="no"/>
+<attribute name="OC_FARNELL" value="1712309" constant="no"/>
+<attribute name="OC_NEWARK" value="46P6179" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS Inc" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="82µH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82498F3821J" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2317X140N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82498F3821J" constant="no"/>
+<attribute name="OC_FARNELL" value="1828310" constant="no"/>
+<attribute name="OC_NEWARK" value="06J1076" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±5%" constant="no"/>
+<attribute name="VALUE" value="820nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82498F3829K" prefix="L">
+<description>SMT inductors</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="INDC2317X140N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B82498F3829K" constant="no"/>
+<attribute name="OC_FARNELL" value="1791520" constant="no"/>
+<attribute name="OC_NEWARK" value="06J1077" constant="no"/>
+<attribute name="SUPPLIER" value="EPCOS" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="VALUE" value="8.2nH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>Developed by element14 :&lt;br&gt;
+element14 CAD Library consolidation.ulp
+at 25/07/2012 10:00:40</description>
+<packages>
+<package name="LED_CMD15-21VGC_TR8">
+<smd name="1" x="-1.5748" y="0" dx="0.9652" dy="1.7018" layer="1"/>
+<smd name="2" x="1.5748" y="0" dx="0.9652" dy="1.7018" layer="1"/>
+<wire x1="-4.2672" y1="0.0254" x2="-3.2512" y2="0.0254" width="0.1524" layer="21"/>
+<wire x1="-3.2512" y1="0.0254" x2="-2.9972" y2="0.0254" width="0.1524" layer="21"/>
+<wire x1="-3.2512" y1="-0.6096" x2="-3.2512" y2="0.0254" width="0.1524" layer="21"/>
+<wire x1="-3.2512" y1="0.0254" x2="-3.2512" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="-3.2512" y1="0.0254" x2="-4.0132" y2="-0.6096" width="0.1524" layer="21"/>
+<wire x1="-3.2512" y1="0.0254" x2="-4.0132" y2="-0.4826" width="0.1524" layer="21"/>
+<wire x1="-3.2512" y1="0.0254" x2="-4.0132" y2="-0.3556" width="0.1524" layer="21"/>
+<wire x1="-3.2512" y1="0.0254" x2="-4.0132" y2="-0.2286" width="0.1524" layer="21"/>
+<wire x1="-3.2512" y1="0.0254" x2="-4.0132" y2="-0.1016" width="0.1524" layer="21"/>
+<wire x1="-3.2512" y1="0.0254" x2="-4.0132" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="-3.2512" y1="0.0254" x2="-4.0132" y2="0.5334" width="0.1524" layer="21"/>
+<wire x1="-3.2512" y1="0.0254" x2="-4.0132" y2="0.4064" width="0.1524" layer="21"/>
+<wire x1="-3.2512" y1="0.0254" x2="-4.0132" y2="0.2794" width="0.1524" layer="21"/>
+<wire x1="-3.2512" y1="0.0254" x2="-4.0132" y2="0.1524" width="0.1524" layer="21"/>
+<wire x1="-4.0132" y1="-0.6096" x2="-4.0132" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="-0.8382" x2="0.762" y2="-0.8382" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="0.8382" x2="-0.762" y2="0.8382" width="0.1524" layer="21"/>
+<wire x1="-4.2672" y1="0.0254" x2="-3.2512" y2="0.0254" width="0.1524" layer="51"/>
+<wire x1="-3.2512" y1="0.0254" x2="-2.9972" y2="0.0254" width="0.1524" layer="51"/>
+<wire x1="-3.2512" y1="-0.6096" x2="-3.2512" y2="0.0254" width="0.1524" layer="51"/>
+<wire x1="-3.2512" y1="0.0254" x2="-3.2512" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-3.2512" y1="0.0254" x2="-4.0132" y2="-0.6096" width="0.1524" layer="51"/>
+<wire x1="-3.2512" y1="0.0254" x2="-4.0132" y2="-0.4826" width="0.1524" layer="51"/>
+<wire x1="-3.2512" y1="0.0254" x2="-4.0132" y2="-0.3556" width="0.1524" layer="51"/>
+<wire x1="-3.2512" y1="0.0254" x2="-4.0132" y2="-0.2286" width="0.1524" layer="51"/>
+<wire x1="-3.2512" y1="0.0254" x2="-4.0132" y2="-0.1016" width="0.1524" layer="51"/>
+<wire x1="-3.2512" y1="0.0254" x2="-4.0132" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-3.2512" y1="0.0254" x2="-4.0132" y2="0.5334" width="0.1524" layer="51"/>
+<wire x1="-3.2512" y1="0.0254" x2="-4.0132" y2="0.4064" width="0.1524" layer="51"/>
+<wire x1="-3.2512" y1="0.0254" x2="-4.0132" y2="0.2794" width="0.1524" layer="51"/>
+<wire x1="-3.2512" y1="0.0254" x2="-4.0132" y2="0.1524" width="0.1524" layer="51"/>
+<wire x1="-4.0132" y1="-0.6096" x2="-4.0132" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.0922" y1="-0.8382" x2="-1.0922" y2="0.8382" width="0.1524" layer="51"/>
+<wire x1="-1.0922" y1="0.8382" x2="-1.7018" y2="0.8382" width="0.1524" layer="51"/>
+<wire x1="-1.7018" y1="-0.8382" x2="-1.0922" y2="-0.8382" width="0.1524" layer="51"/>
+<wire x1="1.0922" y1="0.8382" x2="1.0922" y2="-0.8382" width="0.1524" layer="51"/>
+<wire x1="1.0922" y1="-0.8382" x2="1.7018" y2="-0.8382" width="0.1524" layer="51"/>
+<wire x1="1.7018" y1="0.8382" x2="1.0922" y2="0.8382" width="0.1524" layer="51"/>
+<wire x1="-1.0922" y1="-0.8382" x2="1.0922" y2="-0.8382" width="0.1524" layer="51"/>
+<wire x1="1.7018" y1="-0.8382" x2="1.7018" y2="0.8382" width="0.1524" layer="51"/>
+<wire x1="1.0922" y1="0.8382" x2="-1.0922" y2="0.8382" width="0.1524" layer="51"/>
+<wire x1="-1.7018" y1="0.8382" x2="-1.7018" y2="-0.8382" width="0.1524" layer="51"/>
+<text x="-4.5212" y="1.5494" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.588" y="-3.302" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="LED_CMD15-22SRUGC_TR8">
+<smd name="1" x="-1.3208" y="0.7112" dx="1.27" dy="0.9398" layer="1"/>
+<smd name="3" x="-1.3208" y="-0.7112" dx="1.27" dy="0.9398" layer="1"/>
+<smd name="4" x="1.3208" y="-0.7112" dx="1.27" dy="0.9398" layer="1"/>
+<smd name="2" x="1.3208" y="0.7112" dx="1.27" dy="0.9398" layer="1"/>
+<wire x1="-1.6002" y1="1.143" x2="-1.6002" y2="0.254" width="0.1524" layer="51"/>
+<wire x1="-1.6002" y1="-0.254" x2="-1.6002" y2="-1.143" width="0.1524" layer="51"/>
+<wire x1="1.6002" y1="-1.143" x2="1.6002" y2="-0.254" width="0.1524" layer="51"/>
+<wire x1="1.6002" y1="0.254" x2="1.6002" y2="1.143" width="0.1524" layer="51"/>
+<wire x1="-1.6002" y1="-1.3462" x2="1.6002" y2="-1.3462" width="0.1524" layer="51"/>
+<wire x1="1.6002" y1="-1.3462" x2="1.6002" y2="1.3462" width="0.1524" layer="51"/>
+<wire x1="1.6002" y1="1.3462" x2="0.3048" y2="1.3462" width="0.1524" layer="51"/>
+<wire x1="0.3048" y1="1.3462" x2="-0.3048" y2="1.3462" width="0.1524" layer="51"/>
+<wire x1="-0.3048" y1="1.3462" x2="-1.6002" y2="1.3462" width="0.1524" layer="51"/>
+<wire x1="-1.6002" y1="1.3462" x2="-1.6002" y2="-1.3462" width="0.1524" layer="51"/>
+<wire x1="0.3048" y1="1.3462" x2="-0.3048" y2="1.3462" width="0" layer="51" curve="-180"/>
+<text x="2.032" y="-1.3716" size="1.27" layer="51" ratio="6" rot="SR0">K2</text>
+<text x="2.032" y="0.2794" size="1.27" layer="51" ratio="6" rot="SR0">K1</text>
+<text x="-4.2926" y="-1.524" size="1.27" layer="51" ratio="6" rot="SR0">A2</text>
+<text x="-4.191" y="0.1016" size="1.27" layer="51" ratio="6" rot="SR0">A1</text>
+<wire x1="-0.4064" y1="-1.3462" x2="0.4064" y2="-1.3462" width="0.1524" layer="21"/>
+<wire x1="0.4064" y1="1.3462" x2="0.3048" y2="1.3462" width="0.1524" layer="21"/>
+<wire x1="0.3048" y1="1.3462" x2="-0.3048" y2="1.3462" width="0.1524" layer="21"/>
+<wire x1="-0.3048" y1="1.3462" x2="-0.4064" y2="1.3462" width="0.1524" layer="21"/>
+<wire x1="0.3048" y1="1.3462" x2="-0.3048" y2="1.3462" width="0" layer="21" curve="-180"/>
+<text x="2.0574" y="-1.397" size="1.27" layer="21" ratio="6" rot="SR0">K2</text>
+<text x="-4.191" y="0.1016" size="1.27" layer="21" ratio="6" rot="SR0">A1</text>
+<text x="2.032" y="0.2794" size="1.27" layer="21" ratio="6" rot="SR0">K1</text>
+<text x="-4.2926" y="-1.5494" size="1.27" layer="21" ratio="6" rot="SR0">A2</text>
+<text x="-4.8768" y="2.159" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.7404" y="-3.937" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="LED_CMD17-21VGC_TR8">
+<smd name="1" x="-1.0668" y="0" dx="0.762" dy="1.4478" layer="1"/>
+<smd name="2" x="1.0668" y="0" dx="0.762" dy="1.4478" layer="1"/>
+<wire x1="-3.3782" y1="0.0254" x2="-2.4384" y2="0.0254" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-2.1844" y2="0.0254" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="-0.6096" x2="-2.4384" y2="0.0254" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-2.4384" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.6096" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.4826" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.3556" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.2286" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.1016" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.5334" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.4064" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.2794" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.1524" width="0.1524" layer="21"/>
+<wire x1="-3.2004" y1="-0.6096" x2="-3.2004" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="-0.3556" y1="-0.7366" x2="0.3556" y2="-0.7366" width="0.1524" layer="21"/>
+<wire x1="0.3556" y1="0.7366" x2="-0.3556" y2="0.7366" width="0.1524" layer="21"/>
+<wire x1="-3.4544" y1="0.0254" x2="-2.4384" y2="0.0254" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-2.1844" y2="0.0254" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="-0.6096" x2="-2.4384" y2="0.0254" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-2.4384" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.6096" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.4826" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.3556" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.2286" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.1016" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.5334" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.4064" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.2794" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.1524" width="0.1524" layer="51"/>
+<wire x1="-3.2004" y1="-0.6096" x2="-3.2004" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-0.7112" y1="-0.7366" x2="-0.7112" y2="0.7366" width="0.1524" layer="51"/>
+<wire x1="-0.7112" y1="0.7366" x2="-1.0922" y2="0.7366" width="0.1524" layer="51"/>
+<wire x1="-1.0922" y1="-0.7366" x2="-0.7112" y2="-0.7366" width="0.1524" layer="51"/>
+<wire x1="0.7112" y1="0.7366" x2="0.7112" y2="-0.7366" width="0.1524" layer="51"/>
+<wire x1="0.7112" y1="-0.7366" x2="1.0922" y2="-0.7366" width="0.1524" layer="51"/>
+<wire x1="1.0922" y1="0.7366" x2="0.7112" y2="0.7366" width="0.1524" layer="51"/>
+<wire x1="-0.7112" y1="-0.7366" x2="0.7112" y2="-0.7366" width="0.1524" layer="51"/>
+<wire x1="1.0922" y1="-0.7366" x2="1.0922" y2="0.7366" width="0.1524" layer="51"/>
+<wire x1="0.7112" y1="0.7366" x2="-0.7112" y2="0.7366" width="0.1524" layer="51"/>
+<wire x1="-1.0922" y1="0.7366" x2="-1.0922" y2="-0.7366" width="0.1524" layer="51"/>
+<text x="-4.699" y="1.2954" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.6896" y="-3.5052" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="LED_CMD17-21VGD_TR8">
+<smd name="1" x="-1.0668" y="0" dx="0.762" dy="1.4478" layer="1"/>
+<smd name="2" x="1.0668" y="0" dx="0.762" dy="1.4478" layer="1"/>
+<wire x1="-3.3782" y1="0.0254" x2="-2.4384" y2="0.0254" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-2.1844" y2="0.0254" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="-0.6096" x2="-2.4384" y2="0.0254" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-2.4384" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.6096" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.4826" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.3556" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.2286" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.1016" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.5334" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.4064" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.2794" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.1524" width="0.1524" layer="21"/>
+<wire x1="-3.2004" y1="-0.6096" x2="-3.2004" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="-0.3556" y1="-0.7366" x2="0.3556" y2="-0.7366" width="0.1524" layer="21"/>
+<wire x1="0.3556" y1="0.7366" x2="-0.3556" y2="0.7366" width="0.1524" layer="21"/>
+<wire x1="-3.4544" y1="0.0254" x2="-2.4384" y2="0.0254" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-2.1844" y2="0.0254" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="-0.6096" x2="-2.4384" y2="0.0254" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-2.4384" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.6096" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.4826" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.3556" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.2286" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.1016" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.5334" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.4064" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.2794" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.1524" width="0.1524" layer="51"/>
+<wire x1="-3.2004" y1="-0.6096" x2="-3.2004" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-0.7112" y1="-0.7366" x2="-0.7112" y2="0.7366" width="0.1524" layer="51"/>
+<wire x1="-0.7112" y1="0.7366" x2="-1.0922" y2="0.7366" width="0.1524" layer="51"/>
+<wire x1="-1.0922" y1="-0.7366" x2="-0.7112" y2="-0.7366" width="0.1524" layer="51"/>
+<wire x1="0.7112" y1="0.7366" x2="0.7112" y2="-0.7366" width="0.1524" layer="51"/>
+<wire x1="0.7112" y1="-0.7366" x2="1.0922" y2="-0.7366" width="0.1524" layer="51"/>
+<wire x1="1.0922" y1="0.7366" x2="0.7112" y2="0.7366" width="0.1524" layer="51"/>
+<wire x1="-0.7112" y1="-0.7366" x2="0.7112" y2="-0.7366" width="0.1524" layer="51"/>
+<wire x1="1.0922" y1="-0.7366" x2="1.0922" y2="0.7366" width="0.1524" layer="51"/>
+<wire x1="0.7112" y1="0.7366" x2="-0.7112" y2="0.7366" width="0.1524" layer="51"/>
+<wire x1="-1.0922" y1="0.7366" x2="-1.0922" y2="-0.7366" width="0.1524" layer="51"/>
+<text x="-4.699" y="1.2954" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.6896" y="-3.5052" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="LED_CMD17-21VRC_TR8">
+<smd name="1" x="-1.0668" y="0" dx="0.762" dy="1.4478" layer="1"/>
+<smd name="2" x="1.0668" y="0" dx="0.762" dy="1.4478" layer="1"/>
+<wire x1="-3.3782" y1="0.0254" x2="-2.4384" y2="0.0254" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-2.1844" y2="0.0254" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="-0.6096" x2="-2.4384" y2="0.0254" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-2.4384" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.6096" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.4826" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.3556" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.2286" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.1016" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.5334" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.4064" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.2794" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.1524" width="0.1524" layer="21"/>
+<wire x1="-3.2004" y1="-0.6096" x2="-3.2004" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="-0.3556" y1="-0.7366" x2="0.3556" y2="-0.7366" width="0.1524" layer="21"/>
+<wire x1="0.3556" y1="0.7366" x2="-0.3556" y2="0.7366" width="0.1524" layer="21"/>
+<wire x1="-3.4544" y1="0.0254" x2="-2.4384" y2="0.0254" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-2.1844" y2="0.0254" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="-0.6096" x2="-2.4384" y2="0.0254" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-2.4384" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.6096" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.4826" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.3556" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.2286" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.1016" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.5334" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.4064" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.2794" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.1524" width="0.1524" layer="51"/>
+<wire x1="-3.2004" y1="-0.6096" x2="-3.2004" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-0.7112" y1="-0.7366" x2="-0.7112" y2="0.7366" width="0.1524" layer="51"/>
+<wire x1="-0.7112" y1="0.7366" x2="-1.0922" y2="0.7366" width="0.1524" layer="51"/>
+<wire x1="-1.0922" y1="-0.7366" x2="-0.7112" y2="-0.7366" width="0.1524" layer="51"/>
+<wire x1="0.7112" y1="0.7366" x2="0.7112" y2="-0.7366" width="0.1524" layer="51"/>
+<wire x1="0.7112" y1="-0.7366" x2="1.0922" y2="-0.7366" width="0.1524" layer="51"/>
+<wire x1="1.0922" y1="0.7366" x2="0.7112" y2="0.7366" width="0.1524" layer="51"/>
+<wire x1="-0.7112" y1="-0.7366" x2="0.7112" y2="-0.7366" width="0.1524" layer="51"/>
+<wire x1="1.0922" y1="-0.7366" x2="1.0922" y2="0.7366" width="0.1524" layer="51"/>
+<wire x1="0.7112" y1="0.7366" x2="-0.7112" y2="0.7366" width="0.1524" layer="51"/>
+<wire x1="-1.0922" y1="0.7366" x2="-1.0922" y2="-0.7366" width="0.1524" layer="51"/>
+<text x="-4.699" y="1.2954" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.6896" y="-3.5052" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="LED_CMD17-21VYC_TR8">
+<smd name="1" x="-1.0668" y="0" dx="0.762" dy="1.4478" layer="1"/>
+<smd name="2" x="1.0668" y="0" dx="0.762" dy="1.4478" layer="1"/>
+<wire x1="-3.3782" y1="0.0254" x2="-2.4384" y2="0.0254" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-2.1844" y2="0.0254" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="-0.6096" x2="-2.4384" y2="0.0254" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-2.4384" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.6096" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.4826" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.3556" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.2286" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.1016" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.5334" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.4064" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.2794" width="0.1524" layer="21"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.1524" width="0.1524" layer="21"/>
+<wire x1="-3.2004" y1="-0.6096" x2="-3.2004" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="-0.3556" y1="-0.7366" x2="0.3556" y2="-0.7366" width="0.1524" layer="21"/>
+<wire x1="0.3556" y1="0.7366" x2="-0.3556" y2="0.7366" width="0.1524" layer="21"/>
+<wire x1="-3.4544" y1="0.0254" x2="-2.4384" y2="0.0254" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-2.1844" y2="0.0254" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="-0.6096" x2="-2.4384" y2="0.0254" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-2.4384" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.6096" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.4826" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.3556" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.2286" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="-0.1016" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.5334" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.4064" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.2794" width="0.1524" layer="51"/>
+<wire x1="-2.4384" y1="0.0254" x2="-3.2004" y2="0.1524" width="0.1524" layer="51"/>
+<wire x1="-3.2004" y1="-0.6096" x2="-3.2004" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-0.7112" y1="-0.7366" x2="-0.7112" y2="0.7366" width="0.1524" layer="51"/>
+<wire x1="-0.7112" y1="0.7366" x2="-1.0922" y2="0.7366" width="0.1524" layer="51"/>
+<wire x1="-1.0922" y1="-0.7366" x2="-0.7112" y2="-0.7366" width="0.1524" layer="51"/>
+<wire x1="0.7112" y1="0.7366" x2="0.7112" y2="-0.7366" width="0.1524" layer="51"/>
+<wire x1="0.7112" y1="-0.7366" x2="1.0922" y2="-0.7366" width="0.1524" layer="51"/>
+<wire x1="1.0922" y1="0.7366" x2="0.7112" y2="0.7366" width="0.1524" layer="51"/>
+<wire x1="-0.7112" y1="-0.7366" x2="0.7112" y2="-0.7366" width="0.1524" layer="51"/>
+<wire x1="1.0922" y1="-0.7366" x2="1.0922" y2="0.7366" width="0.1524" layer="51"/>
+<wire x1="0.7112" y1="0.7366" x2="-0.7112" y2="0.7366" width="0.1524" layer="51"/>
+<wire x1="-1.0922" y1="0.7366" x2="-1.0922" y2="-0.7366" width="0.1524" layer="51"/>
+<text x="-4.699" y="1.2954" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.6896" y="-3.5052" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="CMD15-21VGC_TR8">
+<pin name="1" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="10.16" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<wire x1="3.81" y1="1.905" x2="3.81" y2="0" width="0.2032" layer="94"/>
+<wire x1="3.81" y1="0" x2="3.81" y2="-1.905" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.81" y2="0" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="-1.905" x2="6.35" y2="0" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="0" x2="6.35" y2="1.905" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="0" x2="7.62" y2="0" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="4.445" x2="6.985" y2="3.81" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="3.81" x2="8.255" y2="5.08" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="3.81" x2="8.89" y2="3.175" width="0.2032" layer="94"/>
+<wire x1="8.89" y1="3.175" x2="10.16" y2="4.445" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="5.08" x2="7.62" y2="5.08" width="0.2032" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="8.255" y2="4.445" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="4.445" x2="8.255" y2="5.08" width="0.2032" layer="94"/>
+<wire x1="10.16" y1="4.445" x2="9.525" y2="4.445" width="0.2032" layer="94"/>
+<wire x1="9.525" y1="4.445" x2="10.16" y2="3.81" width="0.2032" layer="94"/>
+<wire x1="10.16" y1="3.81" x2="10.16" y2="4.445" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="2.54" x2="8.255" y2="3.81" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="0" x2="3.81" y2="1.905" width="0.2032" layer="94"/>
+<wire x1="3.81" y1="-1.905" x2="6.35" y2="0" width="0.2032" layer="94"/>
+<wire x1="5.08" y1="3.175" x2="6.35" y2="4.445" width="0.2032" layer="94"/>
+<text x="-4.3942" y="-9.3472" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-3.6322" y="3.2766" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CMD15-22SRUGC_TR8">
+<pin name="A1" x="-17.78" y="-2.54" length="middle" direction="pas"/>
+<pin name="A2" x="-17.78" y="-5.08" length="middle" direction="pas"/>
+<pin name="K1" x="17.78" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="K2" x="17.78" y="-5.08" length="middle" direction="pas" rot="R180"/>
+<wire x1="-12.7" y1="2.54" x2="-12.7" y2="-10.16" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="12.7" y2="-10.16" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="12.7" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="2.54" x2="-12.7" y2="2.54" width="0.4064" layer="94"/>
+<text x="-4.826" y="4.0894" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-6.477" y="-12.6238" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+</symbol>
+<symbol name="CMD17-21VGC_TR8">
+<pin name="1" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="10.16" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<wire x1="3.81" y1="1.905" x2="3.81" y2="0" width="0.2032" layer="94"/>
+<wire x1="3.81" y1="0" x2="3.81" y2="-1.905" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.81" y2="0" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="-1.905" x2="6.35" y2="0" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="0" x2="6.35" y2="1.905" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="0" x2="7.62" y2="0" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="4.445" x2="6.985" y2="3.81" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="3.81" x2="8.255" y2="5.08" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="3.81" x2="8.89" y2="3.175" width="0.2032" layer="94"/>
+<wire x1="8.89" y1="3.175" x2="10.16" y2="4.445" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="5.08" x2="7.62" y2="5.08" width="0.2032" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="8.255" y2="4.445" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="4.445" x2="8.255" y2="5.08" width="0.2032" layer="94"/>
+<wire x1="10.16" y1="4.445" x2="9.525" y2="4.445" width="0.2032" layer="94"/>
+<wire x1="9.525" y1="4.445" x2="10.16" y2="3.81" width="0.2032" layer="94"/>
+<wire x1="10.16" y1="3.81" x2="10.16" y2="4.445" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="2.54" x2="8.255" y2="3.81" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="0" x2="3.81" y2="1.905" width="0.2032" layer="94"/>
+<wire x1="3.81" y1="-1.905" x2="6.35" y2="0" width="0.2032" layer="94"/>
+<wire x1="5.08" y1="3.175" x2="6.35" y2="4.445" width="0.2032" layer="94"/>
+<text x="-4.3942" y="-9.3472" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-2.7432" y="3.1496" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CMD17-21VGD_TR8">
+<pin name="1" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="10.16" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<wire x1="3.81" y1="1.905" x2="3.81" y2="0" width="0.2032" layer="94"/>
+<wire x1="3.81" y1="0" x2="3.81" y2="-1.905" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.81" y2="0" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="-1.905" x2="6.35" y2="0" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="0" x2="6.35" y2="1.905" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="0" x2="7.62" y2="0" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="4.445" x2="6.985" y2="3.81" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="3.81" x2="8.255" y2="5.08" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="3.81" x2="8.89" y2="3.175" width="0.2032" layer="94"/>
+<wire x1="8.89" y1="3.175" x2="10.16" y2="4.445" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="5.08" x2="7.62" y2="5.08" width="0.2032" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="8.255" y2="4.445" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="4.445" x2="8.255" y2="5.08" width="0.2032" layer="94"/>
+<wire x1="10.16" y1="4.445" x2="9.525" y2="4.445" width="0.2032" layer="94"/>
+<wire x1="9.525" y1="4.445" x2="10.16" y2="3.81" width="0.2032" layer="94"/>
+<wire x1="10.16" y1="3.81" x2="10.16" y2="4.445" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="2.54" x2="8.255" y2="3.81" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="0" x2="3.81" y2="1.905" width="0.2032" layer="94"/>
+<wire x1="3.81" y1="-1.905" x2="6.35" y2="0" width="0.2032" layer="94"/>
+<wire x1="5.08" y1="3.175" x2="6.35" y2="4.445" width="0.2032" layer="94"/>
+<text x="-4.3942" y="-9.3472" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-2.7432" y="3.1496" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CMD17-21VRC_TR8">
+<pin name="1" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="10.16" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<wire x1="3.81" y1="1.905" x2="3.81" y2="0" width="0.2032" layer="94"/>
+<wire x1="3.81" y1="0" x2="3.81" y2="-1.905" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.81" y2="0" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="-1.905" x2="6.35" y2="0" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="0" x2="6.35" y2="1.905" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="0" x2="7.62" y2="0" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="4.445" x2="6.985" y2="3.81" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="3.81" x2="8.255" y2="5.08" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="3.81" x2="8.89" y2="3.175" width="0.2032" layer="94"/>
+<wire x1="8.89" y1="3.175" x2="10.16" y2="4.445" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="5.08" x2="7.62" y2="5.08" width="0.2032" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="8.255" y2="4.445" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="4.445" x2="8.255" y2="5.08" width="0.2032" layer="94"/>
+<wire x1="10.16" y1="4.445" x2="9.525" y2="4.445" width="0.2032" layer="94"/>
+<wire x1="9.525" y1="4.445" x2="10.16" y2="3.81" width="0.2032" layer="94"/>
+<wire x1="10.16" y1="3.81" x2="10.16" y2="4.445" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="2.54" x2="8.255" y2="3.81" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="0" x2="3.81" y2="1.905" width="0.2032" layer="94"/>
+<wire x1="3.81" y1="-1.905" x2="6.35" y2="0" width="0.2032" layer="94"/>
+<wire x1="5.08" y1="3.175" x2="6.35" y2="4.445" width="0.2032" layer="94"/>
+<text x="-4.3942" y="-9.3472" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-2.7432" y="3.1496" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CMD17-21VYC_TR8">
+<pin name="1" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="10.16" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<wire x1="3.81" y1="1.905" x2="3.81" y2="0" width="0.2032" layer="94"/>
+<wire x1="3.81" y1="0" x2="3.81" y2="-1.905" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.81" y2="0" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="-1.905" x2="6.35" y2="0" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="0" x2="6.35" y2="1.905" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="0" x2="7.62" y2="0" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="4.445" x2="6.985" y2="3.81" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="3.81" x2="8.255" y2="5.08" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="3.81" x2="8.89" y2="3.175" width="0.2032" layer="94"/>
+<wire x1="8.89" y1="3.175" x2="10.16" y2="4.445" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="5.08" x2="7.62" y2="5.08" width="0.2032" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="8.255" y2="4.445" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="4.445" x2="8.255" y2="5.08" width="0.2032" layer="94"/>
+<wire x1="10.16" y1="4.445" x2="9.525" y2="4.445" width="0.2032" layer="94"/>
+<wire x1="9.525" y1="4.445" x2="10.16" y2="3.81" width="0.2032" layer="94"/>
+<wire x1="10.16" y1="3.81" x2="10.16" y2="4.445" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="2.54" x2="8.255" y2="3.81" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="0" x2="3.81" y2="1.905" width="0.2032" layer="94"/>
+<wire x1="3.81" y1="-1.905" x2="6.35" y2="0" width="0.2032" layer="94"/>
+<wire x1="5.08" y1="3.175" x2="6.35" y2="4.445" width="0.2032" layer="94"/>
+<text x="-4.3942" y="-9.3472" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-2.7432" y="3.1496" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CMD15-21VGC/TR8" prefix="LED">
+<description>LED, GREEN, 10MCD, 570NM</description>
+<gates>
+<gate name="A" symbol="CMD15-21VGC_TR8" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LED_CMD15-21VGC_TR8">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LEDCOLOR" value="Green" constant="no"/>
+<attribute name="MPN" value="CMD15-21VGC/TR8" constant="no"/>
+<attribute name="OC_FARNELL" value="1384811" constant="no"/>
+<attribute name="OC_NEWARK" value="15M8857" constant="no"/>
+<attribute name="PACKAGE" value="LED-1206 - GREEN" constant="no"/>
+<attribute name="SUPPLIER" value="CHICAGO MINIATURE LIGHTING" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CMD15-22SRUGC_TR8" prefix="LED">
+<description>SMT 1206 LEDs-Red / Green</description>
+<gates>
+<gate name="A" symbol="CMD15-22SRUGC_TR8" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LED_CMD15-22SRUGC_TR8">
+<connects>
+<connect gate="A" pin="A1" pad="1"/>
+<connect gate="A" pin="A2" pad="3"/>
+<connect gate="A" pin="K1" pad="2"/>
+<connect gate="A" pin="K2" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COLOR" value="Red / Green" constant="no"/>
+<attribute name="MPN" value="CMD15-22SRUGC_TR8" constant="no"/>
+<attribute name="OC_FARNELL" value="1611597" constant="no"/>
+<attribute name="OC_NEWARK" value="93B3575" constant="no"/>
+<attribute name="PACKAGE" value="LED-1206 Package" constant="no"/>
+<attribute name="SUPPLIER" value="CM Lighting" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CMD17-21VGC/TR8" prefix="LED">
+<description>LED, GREEN, 10MCD, 570NM</description>
+<gates>
+<gate name="A" symbol="CMD17-21VGC_TR8" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LED_CMD17-21VGC_TR8">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LEDCOLOR" value="Green" constant="no"/>
+<attribute name="MPN" value="CMD17-21VGC/TR8" constant="no"/>
+<attribute name="OC_FARNELL" value="4539102" constant="no"/>
+<attribute name="OC_NEWARK" value="34C8661" constant="no"/>
+<attribute name="PACKAGE" value="2 -PIN LED" constant="no"/>
+<attribute name="SUPPLIER" value="CHICAGO MINIATURE LIGHTING" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CMD17-21VGD_TR8" prefix="LED">
+<description>LED, GREEN, 7MCD, 570NM</description>
+<gates>
+<gate name="A" symbol="CMD17-21VGD_TR8" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LED_CMD17-21VGD_TR8">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LEDCOLOR" value="Green" constant="no"/>
+<attribute name="MPN" value="CMD17-21VGD_TR8" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="34C8662" constant="no"/>
+<attribute name="PACKAGE" value="2 -PIN LED" constant="no"/>
+<attribute name="SUPPLIER" value="CHICAGO MINIATURE LIGHTING" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CMD17-21VRC_TR8" prefix="LED">
+<description>LED, RED, 13MCD, 640NM</description>
+<gates>
+<gate name="A" symbol="CMD17-21VRC_TR8" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LED_CMD17-21VRC_TR8">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LEDCOLOR" value="RED" constant="no"/>
+<attribute name="MPN" value="CMD17-21VRC_TR8" constant="no"/>
+<attribute name="OC_FARNELL" value="4539126" constant="no"/>
+<attribute name="OC_NEWARK" value="34C8663" constant="no"/>
+<attribute name="PACKAGE" value="2 -PIN LED" constant="no"/>
+<attribute name="SUPPLIER" value="CHICAGO MINIATURE LIGHTING" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CMD17-21VYC_TR8" prefix="LED">
+<description>LED, YELLOW, 12MCD, 585NM</description>
+<gates>
+<gate name="A" symbol="CMD17-21VYC_TR8" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LED_CMD17-21VYC_TR8">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LEDCOLOR" value="YELLOW" constant="no"/>
+<attribute name="MPN" value="CMD17-21VYC_TR8" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="34C8665" constant="no"/>
+<attribute name="PACKAGE" value="2 -PIN LED" constant="no"/>
+<attribute name="SUPPLIER" value="CHICAGO MINIATURE LIGHTING" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
